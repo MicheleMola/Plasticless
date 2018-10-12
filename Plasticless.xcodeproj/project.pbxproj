@@ -13,6 +13,12 @@
 		DE2E229A2170E7A600B8CB06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22982170E7A600B8CB06 /* Main.storyboard */; };
 		DE2E229C2170E7A700B8CB06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2E229B2170E7A700B8CB06 /* Assets.xcassets */; };
 		DE2E229F2170E7A700B8CB06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E229D2170E7A700B8CB06 /* LaunchScreen.storyboard */; };
+		DE2E22AA2170ED4600B8CB06 /* Missions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22A82170ED4600B8CB06 /* Missions.storyboard */; };
+		DE2E22AC2170F02D00B8CB06 /* Footprint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22AB2170F02D00B8CB06 /* Footprint.storyboard */; };
+		DE2E22AE2170F11B00B8CB06 /* Ideas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22AD2170F11B00B8CB06 /* Ideas.storyboard */; };
+		DE2E22B12170F18E00B8CB06 /* NearMe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22AF2170F18E00B8CB06 /* NearMe.storyboard */; };
+		DE2E22B32170F20200B8CB06 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22B22170F20200B8CB06 /* Profile.storyboard */; };
+		DEF81E962170F9C000006476 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF81E952170F9C000006476 /* ProfileTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		DE2E229B2170E7A700B8CB06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE2E229E2170E7A700B8CB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE2E22A02170E7A700B8CB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE2E22A92170ED4600B8CB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Plasticless/Base.lproj/Missions.storyboard; sourceTree = "<group>"; };
+		DE2E22AB2170F02D00B8CB06 /* Footprint.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Footprint.storyboard; sourceTree = "<group>"; };
+		DE2E22AD2170F11B00B8CB06 /* Ideas.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ideas.storyboard; sourceTree = "<group>"; };
+		DE2E22B02170F18E00B8CB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Plasticless/Base.lproj/NearMe.storyboard; sourceTree = "<group>"; };
+		DE2E22B22170F20200B8CB06 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		DEF81E952170F9C000006476 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,11 @@
 		DE2E22912170E7A600B8CB06 /* Plasticless */ = {
 			isa = PBXGroup;
 			children = (
+				DE2E22B42170F28100B8CB06 /* Ideas */,
+				DE2E22B52170F31A00B8CB06 /* NearMe */,
+				DE2E22B62170F32300B8CB06 /* Profile */,
+				DE2E22B72170F32F00B8CB06 /* Footprint */,
+				DE2E22B82170F34700B8CB06 /* Missions */,
 				DE2E22922170E7A600B8CB06 /* AppDelegate.swift */,
 				DE2E22942170E7A600B8CB06 /* FirstViewController.swift */,
 				DE2E22962170E7A600B8CB06 /* SecondViewController.swift */,
@@ -65,6 +82,95 @@
 				DE2E22A02170E7A700B8CB06 /* Info.plist */,
 			);
 			path = Plasticless;
+			sourceTree = "<group>";
+		};
+		DE2E22B42170F28100B8CB06 /* Ideas */ = {
+			isa = PBXGroup;
+			children = (
+				DE2E22BC2170F39200B8CB06 /* Controllers */,
+				DE2E22BB2170F38B00B8CB06 /* Models */,
+				DE2E22BA2170F38500B8CB06 /* Views */,
+			);
+			path = Ideas;
+			sourceTree = "<group>";
+		};
+		DE2E22B52170F31A00B8CB06 /* NearMe */ = {
+			isa = PBXGroup;
+			children = (
+				DE2E22AF2170F18E00B8CB06 /* NearMe.storyboard */,
+			);
+			path = NearMe;
+			sourceTree = "<group>";
+		};
+		DE2E22B62170F32300B8CB06 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				DE2E22BF2170F66D00B8CB06 /* Models */,
+				DE2E22BE2170F66100B8CB06 /* Controllers */,
+				DE2E22BD2170F65100B8CB06 /* Views */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		DE2E22B72170F32F00B8CB06 /* Footprint */ = {
+			isa = PBXGroup;
+			children = (
+				DE2E22AB2170F02D00B8CB06 /* Footprint.storyboard */,
+			);
+			path = Footprint;
+			sourceTree = "<group>";
+		};
+		DE2E22B82170F34700B8CB06 /* Missions */ = {
+			isa = PBXGroup;
+			children = (
+				DE2E22A82170ED4600B8CB06 /* Missions.storyboard */,
+			);
+			path = Missions;
+			sourceTree = "<group>";
+		};
+		DE2E22BA2170F38500B8CB06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE2E22AD2170F11B00B8CB06 /* Ideas.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE2E22BB2170F38B00B8CB06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE2E22BC2170F39200B8CB06 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE2E22BD2170F65100B8CB06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE2E22B22170F20200B8CB06 /* Profile.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE2E22BE2170F66100B8CB06 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DEF81E952170F9C000006476 /* ProfileTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE2E22BF2170F66D00B8CB06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +233,12 @@
 			files = (
 				DE2E229F2170E7A700B8CB06 /* LaunchScreen.storyboard in Resources */,
 				DE2E229C2170E7A700B8CB06 /* Assets.xcassets in Resources */,
+				DE2E22B32170F20200B8CB06 /* Profile.storyboard in Resources */,
 				DE2E229A2170E7A600B8CB06 /* Main.storyboard in Resources */,
+				DE2E22B12170F18E00B8CB06 /* NearMe.storyboard in Resources */,
+				DE2E22AC2170F02D00B8CB06 /* Footprint.storyboard in Resources */,
+				DE2E22AA2170ED4600B8CB06 /* Missions.storyboard in Resources */,
+				DE2E22AE2170F11B00B8CB06 /* Ideas.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +251,7 @@
 			files = (
 				DE2E22972170E7A600B8CB06 /* SecondViewController.swift in Sources */,
 				DE2E22932170E7A600B8CB06 /* AppDelegate.swift in Sources */,
+				DEF81E962170F9C000006476 /* ProfileTableViewController.swift in Sources */,
 				DE2E22952170E7A600B8CB06 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,6 +273,22 @@
 				DE2E229E2170E7A700B8CB06 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DE2E22A82170ED4600B8CB06 /* Missions.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2E22A92170ED4600B8CB06 /* Base */,
+			);
+			name = Missions.storyboard;
+			sourceTree = "<group>";
+		};
+		DE2E22AF2170F18E00B8CB06 /* NearMe.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE2E22B02170F18E00B8CB06 /* Base */,
+			);
+			name = NearMe.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

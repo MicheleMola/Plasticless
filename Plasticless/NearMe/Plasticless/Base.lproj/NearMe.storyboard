@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Euf-mr-8mq">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="yVu-66-pvk">
+            <objects>
+                <viewController id="n9c-kT-1LS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8JU-wl-gVA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="c4r-zo-PcP"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qD9-0f-eBM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EYB-qq-bzP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1850.4000000000001" y="374.66266866566718"/>
+        </scene>
+        <!--Near Me-->
+        <scene sceneID="zPE-mt-bxO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Euf-mr-8mq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Near Me" id="Xay-jh-snm"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8gD-h3-g2g">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="n9c-kT-1LS" kind="relationship" relationship="rootViewController" id="Qr4-dy-yJB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sfQ-fX-LYL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="909.60000000000002" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>

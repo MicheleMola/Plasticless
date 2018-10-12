@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DZD-ja-81Q">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ayf-hO-aEf">
+            <objects>
+                <viewController id="VSv-Tq-nE9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kiR-fE-KXN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="d7P-xr-eaG"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5xx-Ck-bmt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lAL-tz-hC5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1879.2" y="223.53823088455775"/>
+        </scene>
+        <!--Ideas-->
+        <scene sceneID="XOK-la-eVC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DZD-ja-81Q" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Ideas" id="VP9-9I-lLx"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uEf-Xk-Esx">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="VSv-Tq-nE9" kind="relationship" relationship="rootViewController" id="dez-IM-SaW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5rm-jh-T4M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="940" y="223.53823088455775"/>
+        </scene>
+    </scenes>
+</document>
