@@ -17,7 +17,7 @@ The challenge that we wanted to address is <b>"reduce plastic pollution"</b> and
 
 # <a name="team-members"></a>Team Members
 * "Luigi Barretta" <luigibarretta@outlook.com>
-* "Michele Mola" <diego._.10@hotmail.it>
+* "Michele Mola" <michele.mola92@gmail.com>
 * "Paolo Di Grazia" <paolodigrazia90@gmail.com>
 * "Emilio Arvonio" <e.arvonio@gmail.com>
 * "Antonio Biondi" <pasbiondi1@alice.it>
