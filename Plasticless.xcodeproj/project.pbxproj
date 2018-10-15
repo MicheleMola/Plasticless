@@ -123,7 +123,9 @@
 		DE2E22B82170F34700B8CB06 /* Missions */ = {
 			isa = PBXGroup;
 			children = (
-				DE2E22A82170ED4600B8CB06 /* Missions.storyboard */,
+				DE8685992174D41800B3C035 /* Views */,
+				DE8685982174D40A00B3C035 /* Controllers */,
+				DE8685972174D40000B3C035 /* Models */,
 			);
 			path = Missions;
 			sourceTree = "<group>";
@@ -171,6 +173,28 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		DE8685972174D40000B3C035 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE8685982174D40A00B3C035 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE8685992174D41800B3C035 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE2E22A82170ED4600B8CB06 /* Missions.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
