@@ -10,13 +10,11 @@ import UIKit
 
 class ProfileTableViewController: UITableViewController {
   
-  @IBOutlet weak var profileImageView: UIImageView!
-  
+    @IBOutlet weak var nameSurname: UILabel!
+    
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    profileImageView.layer.masksToBounds = true
-    profileImageView.layer.cornerRadius = 10
   }
   
   
