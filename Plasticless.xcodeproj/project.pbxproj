@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		303C64B62174ED5C00AFB35B /* MapListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C64B52174ED5C00AFB35B /* MapListTableViewController.swift */; };
+		303C64B82174ED8900AFB35B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C64B72174ED8900AFB35B /* MapViewController.swift */; };
+		303C64BA2174EDB500AFB35B /* NearMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C64B92174EDB500AFB35B /* NearMeViewController.swift */; };
 		DE2E22932170E7A600B8CB06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E22922170E7A600B8CB06 /* AppDelegate.swift */; };
 		DE2E22952170E7A600B8CB06 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E22942170E7A600B8CB06 /* FirstViewController.swift */; };
 		DE2E22972170E7A600B8CB06 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E22962170E7A600B8CB06 /* SecondViewController.swift */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		303C64B52174ED5C00AFB35B /* MapListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListTableViewController.swift; sourceTree = "<group>"; };
+		303C64B72174ED8900AFB35B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		303C64B92174EDB500AFB35B /* NearMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeViewController.swift; sourceTree = "<group>"; };
 		DE2E228F2170E7A600B8CB06 /* Plasticless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plasticless.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2E22922170E7A600B8CB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE2E22942170E7A600B8CB06 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		303C64B22174D39400AFB35B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE2E22AF2170F18E00B8CB06 /* NearMe.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		303C64B32174D39E00AFB35B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				303C64B52174ED5C00AFB35B /* MapListTableViewController.swift */,
+				303C64B72174ED8900AFB35B /* MapViewController.swift */,
+				303C64B92174EDB500AFB35B /* NearMeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		303C64B42174D3A900AFB35B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DE2E22862170E7A600B8CB06 = {
 			isa = PBXGroup;
 			children = (
@@ -97,7 +128,9 @@
 		DE2E22B52170F31A00B8CB06 /* NearMe */ = {
 			isa = PBXGroup;
 			children = (
-				DE2E22AF2170F18E00B8CB06 /* NearMe.storyboard */,
+				303C64B42174D3A900AFB35B /* Models */,
+				303C64B32174D39E00AFB35B /* Controllers */,
+				303C64B22174D39400AFB35B /* Views */,
 			);
 			path = NearMe;
 			sourceTree = "<group>";
@@ -250,6 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE2E22972170E7A600B8CB06 /* SecondViewController.swift in Sources */,
+				303C64B82174ED8900AFB35B /* MapViewController.swift in Sources */,
+				303C64B62174ED5C00AFB35B /* MapListTableViewController.swift in Sources */,
+				303C64BA2174EDB500AFB35B /* NearMeViewController.swift in Sources */,
 				DE2E22932170E7A600B8CB06 /* AppDelegate.swift in Sources */,
 				DEF81E962170F9C000006476 /* ProfileTableViewController.swift in Sources */,
 				DE2E22952170E7A600B8CB06 /* FirstViewController.swift in Sources */,
