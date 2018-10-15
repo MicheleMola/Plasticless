@@ -115,7 +115,9 @@
 		DE2E22B72170F32F00B8CB06 /* Footprint */ = {
 			isa = PBXGroup;
 			children = (
-				DE2E22AB2170F02D00B8CB06 /* Footprint.storyboard */,
+				F4D891E62174D150007CCA23 /* Models */,
+				F4D891E52174D147007CCA23 /* Controllers */,
+				F4D891E42174D13A007CCA23 /* Views */,
 			);
 			path = Footprint;
 			sourceTree = "<group>";
@@ -167,6 +169,28 @@
 			sourceTree = "<group>";
 		};
 		DE2E22BF2170F66D00B8CB06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4D891E42174D13A007CCA23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE2E22AB2170F02D00B8CB06 /* Footprint.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4D891E52174D147007CCA23 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F4D891E62174D150007CCA23 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
