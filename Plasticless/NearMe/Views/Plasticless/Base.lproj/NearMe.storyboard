@@ -139,6 +139,7 @@
                             <constraint firstAttribute="bottom" secondItem="7eV-cM-HQv" secondAttribute="bottom" id="Ba3-bc-7K0"/>
                             <constraint firstItem="7eV-cM-HQv" firstAttribute="top" secondItem="XlB-dq-aGg" secondAttribute="top" id="ZCN-bM-Nox"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="Sgn-YR-8ea"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xAX-98-TZr" userLabel="First Responder" sceneMemberID="firstResponder"/>
