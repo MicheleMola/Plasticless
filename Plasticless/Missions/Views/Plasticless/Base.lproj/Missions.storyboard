@@ -26,7 +26,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="219.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uOs-Me-EOK">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pollution" translatesAutoresizingMaskIntoConstraints="NO" id="uOs-Me-EOK">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="219.66666666666666"/>
                                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </imageView>
@@ -518,7 +518,7 @@
                                 <connections>
                                     <outlet property="photoImageView" destination="xck-dI-CvY" id="HV8-Id-NyY"/>
                                     <outlet property="titleLabel" destination="Fah-X8-A1T" id="pjB-Ke-Q1h"/>
-                                    <segue destination="QrT-eE-RFI" kind="show" id="RRV-52-q3v"/>
+                                    <segue destination="QrT-eE-RFI" kind="show" identifier="showDetail" id="RRV-52-q3v"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -576,7 +576,7 @@
                                                     <rect key="frame" x="16" y="11" width="343" height="238"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
@@ -624,6 +624,11 @@
                             <outlet property="delegate" destination="QrT-eE-RFI" id="htH-ru-a9w"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="descriptionTextView" destination="DLn-7r-hPh" id="cZR-ye-aRo"/>
+                        <outlet property="rewardLabel" destination="zeH-zt-jNZ" id="ai1-IM-0qb"/>
+                        <outlet property="titleLabel" destination="VVK-RX-9sC" id="ovc-u9-lB2"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dke-ca-1hC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -652,5 +657,6 @@
     </scenes>
     <resources>
         <image name="ChallengeYourself" width="2938" height="1446"/>
+        <image name="pollution" width="2000" height="1000"/>
     </resources>
 </document>

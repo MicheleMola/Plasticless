@@ -23,6 +23,16 @@ class ChallengesTableViewController: UITableViewController {
     tableView.reloadData()
   }
   
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if segue.identifier == "showDetail" {
+      if let challengeDetailTVC = segue.destination as? ChallengeDetailTableViewController {
+        if let indexPath = self.tableView.indexPathForSelectedRow {
+          challengeDetailTVC.challenge = self.challenges[indexPath.row]
+        }
+      }
+    }
+  }
+  
 }
 
 // MARK: - Implemented DataSource Protocol
