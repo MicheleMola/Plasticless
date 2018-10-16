@@ -8,9 +8,9 @@
 
 import UIKit
 
-struct Challenge: Mission {
+struct Challenge: Mission, Codable {
   var title: String
-  var image: UIImage
+  var imageURL: URL
   var description: String
   var reward: String
 }

@@ -10,7 +10,7 @@ import UIKit
 
 protocol Mission {
   var title: String { get set }
-  var image: UIImage { get set }
+  var imageURL: URL { get set }
   var description: String { get set }
   var reward: String { get set }
 }

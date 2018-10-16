@@ -10,5 +10,8 @@ import Foundation
 
 struct Progress {
   let completedMissions: Int
-  
+  let missionToComplete: Int
+  let totalMissions: Int
+  let superChallengesCompleted: Int
+  let totalPoints: Int
 }

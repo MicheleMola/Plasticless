@@ -10,7 +10,7 @@ import UIKit
 
 struct SuperChallenge: Mission {
   var title: String
-  var image: UIImage
+  var imageURL: URL
   var description: String
   var reward: String
   
