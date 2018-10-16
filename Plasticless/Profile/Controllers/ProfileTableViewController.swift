@@ -16,7 +16,6 @@ class ProfileTableViewController: UITableViewController {
     super.viewDidLoad()
     
   }
-  
-  
-  
+
+
 }

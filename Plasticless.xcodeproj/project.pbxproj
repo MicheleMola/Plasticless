@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		178BD9B42176334800763665 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BD9B32176334800763665 /* User.swift */; };
+		178BD9B6217633D500763665 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BD9B5217633D500763665 /* Badge.swift */; };
+		178BD9B821763A1600763665 /* EditProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BD9B721763A1600763665 /* EditProfileTableViewController.swift */; };
 		DE2E22932170E7A600B8CB06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E22922170E7A600B8CB06 /* AppDelegate.swift */; };
 		DE2E22952170E7A600B8CB06 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E22942170E7A600B8CB06 /* FirstViewController.swift */; };
 		DE2E22972170E7A600B8CB06 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E22962170E7A600B8CB06 /* SecondViewController.swift */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		178BD9B32176334800763665 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = SOURCE_ROOT; };
+		178BD9B5217633D500763665 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = SOURCE_ROOT; };
+		178BD9B721763A1600763665 /* EditProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileTableViewController.swift; sourceTree = "<group>"; };
 		DE2E228F2170E7A600B8CB06 /* Plasticless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plasticless.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2E22922170E7A600B8CB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE2E22942170E7A600B8CB06 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				DEF81E952170F9C000006476 /* ProfileTableViewController.swift */,
+				178BD9B721763A1600763665 /* EditProfileTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -169,6 +176,8 @@
 		DE2E22BF2170F66D00B8CB06 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				178BD9B32176334800763665 /* User.swift */,
+				178BD9B5217633D500763665 /* Badge.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -250,6 +259,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE2E22972170E7A600B8CB06 /* SecondViewController.swift in Sources */,
+				178BD9B821763A1600763665 /* EditProfileTableViewController.swift in Sources */,
+				178BD9B6217633D500763665 /* Badge.swift in Sources */,
+				178BD9B42176334800763665 /* User.swift in Sources */,
 				DE2E22932170E7A600B8CB06 /* AppDelegate.swift in Sources */,
 				DEF81E962170F9C000006476 /* ProfileTableViewController.swift in Sources */,
 				DE2E22952170E7A600B8CB06 /* FirstViewController.swift in Sources */,
