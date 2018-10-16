@@ -18,6 +18,10 @@
 		DE2E22AE2170F11B00B8CB06 /* Ideas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22AD2170F11B00B8CB06 /* Ideas.storyboard */; };
 		DE2E22B12170F18E00B8CB06 /* NearMe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22AF2170F18E00B8CB06 /* NearMe.storyboard */; };
 		DE2E22B32170F20200B8CB06 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22B22170F20200B8CB06 /* Profile.storyboard */; };
+		DEC8CB3621763FF1005C6FB4 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CB3521763FF1005C6FB4 /* Mission.swift */; };
+		DEC8CB38217642FE005C6FB4 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CB37217642FE005C6FB4 /* Challenge.swift */; };
+		DEC8CB3A21764335005C6FB4 /* SuperChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CB3921764335005C6FB4 /* SuperChallenge.swift */; };
+		DEC8CB3C217643BD005C6FB4 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CB3B217643BD005C6FB4 /* Progress.swift */; };
 		DEF81E962170F9C000006476 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF81E952170F9C000006476 /* ProfileTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +39,10 @@
 		DE2E22AD2170F11B00B8CB06 /* Ideas.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ideas.storyboard; sourceTree = "<group>"; };
 		DE2E22B02170F18E00B8CB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Plasticless/Base.lproj/NearMe.storyboard; sourceTree = "<group>"; };
 		DE2E22B22170F20200B8CB06 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		DEC8CB3521763FF1005C6FB4 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		DEC8CB37217642FE005C6FB4 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		DEC8CB3921764335005C6FB4 /* SuperChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperChallenge.swift; sourceTree = "<group>"; };
+		DEC8CB3B217643BD005C6FB4 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
 		DEF81E952170F9C000006476 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,6 +186,10 @@
 		DE8685972174D40000B3C035 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				DEC8CB3521763FF1005C6FB4 /* Mission.swift */,
+				DEC8CB37217642FE005C6FB4 /* Challenge.swift */,
+				DEC8CB3921764335005C6FB4 /* SuperChallenge.swift */,
+				DEC8CB3B217643BD005C6FB4 /* Progress.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -274,8 +286,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE2E22972170E7A600B8CB06 /* SecondViewController.swift in Sources */,
+				DEC8CB38217642FE005C6FB4 /* Challenge.swift in Sources */,
+				DEC8CB3A21764335005C6FB4 /* SuperChallenge.swift in Sources */,
 				DE2E22932170E7A600B8CB06 /* AppDelegate.swift in Sources */,
 				DEF81E962170F9C000006476 /* ProfileTableViewController.swift in Sources */,
+				DEC8CB3621763FF1005C6FB4 /* Mission.swift in Sources */,
+				DEC8CB3C217643BD005C6FB4 /* Progress.swift in Sources */,
 				DE2E22952170E7A600B8CB06 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
