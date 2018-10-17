@@ -22,5 +22,4 @@ struct Idea {
     
 }
 
-
-//Ciao mich
+// CIao
