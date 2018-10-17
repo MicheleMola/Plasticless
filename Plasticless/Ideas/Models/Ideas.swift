@@ -19,7 +19,4 @@ struct Idea {
     let steps: String
     let category: Category
     
-    
 }
-
-// CIao
