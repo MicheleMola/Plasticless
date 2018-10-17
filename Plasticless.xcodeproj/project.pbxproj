@@ -18,6 +18,9 @@
 		DE1ABACF21777A9300B6209B /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1ABACD21777A9300B6209B /* DetailsTableViewController.swift */; };
 		DE1ABAD221777A9D00B6209B /* Ideas.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1ABAD021777A9D00B6209B /* Ideas.swift */; };
 		DE1ABAD521777AC900B6209B /* Ideas.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1ABAD421777AC900B6209B /* Ideas.storyboard */; };
+		DE1ABADA21777C6300B6209B /* PlasticItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1ABAD921777C6300B6209B /* PlasticItem.swift */; };
+		DE1ABADC21777C8700B6209B /* Footprint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1ABADB21777C8700B6209B /* Footprint.storyboard */; };
+		DE1ABADE21777C9200B6209B /* FootprintTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1ABADD21777C9200B6209B /* FootprintTableViewController.swift */; };
 		DE2E22932170E7A600B8CB06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E22922170E7A600B8CB06 /* AppDelegate.swift */; };
 		DE2E22952170E7A600B8CB06 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E22942170E7A600B8CB06 /* FirstViewController.swift */; };
 		DE2E22972170E7A600B8CB06 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E22962170E7A600B8CB06 /* SecondViewController.swift */; };
@@ -25,7 +28,6 @@
 		DE2E229C2170E7A700B8CB06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2E229B2170E7A700B8CB06 /* Assets.xcassets */; };
 		DE2E229F2170E7A700B8CB06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E229D2170E7A700B8CB06 /* LaunchScreen.storyboard */; };
 		DE2E22AA2170ED4600B8CB06 /* Missions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22A82170ED4600B8CB06 /* Missions.storyboard */; };
-		DE2E22AC2170F02D00B8CB06 /* Footprint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22AB2170F02D00B8CB06 /* Footprint.storyboard */; };
 		DE2E22B12170F18E00B8CB06 /* NearMe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22AF2170F18E00B8CB06 /* NearMe.storyboard */; };
 		DE2E22B32170F20200B8CB06 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22B22170F20200B8CB06 /* Profile.storyboard */; };
 		DE3813B9217651FD00613F55 /* MissionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3813B8217651FD00613F55 /* MissionsTableViewController.swift */; };
@@ -56,6 +58,9 @@
 		DE1ABACD21777A9300B6209B /* DetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
 		DE1ABAD021777A9D00B6209B /* Ideas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ideas.swift; sourceTree = "<group>"; };
 		DE1ABAD421777AC900B6209B /* Ideas.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ideas.storyboard; sourceTree = "<group>"; };
+		DE1ABAD921777C6300B6209B /* PlasticItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlasticItem.swift; sourceTree = "<group>"; };
+		DE1ABADB21777C8700B6209B /* Footprint.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Footprint.storyboard; sourceTree = "<group>"; };
+		DE1ABADD21777C9200B6209B /* FootprintTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FootprintTableViewController.swift; sourceTree = "<group>"; };
 		DE2E228F2170E7A600B8CB06 /* Plasticless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plasticless.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2E22922170E7A600B8CB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE2E22942170E7A600B8CB06 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +70,6 @@
 		DE2E229E2170E7A700B8CB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE2E22A02170E7A700B8CB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE2E22A92170ED4600B8CB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Plasticless/Base.lproj/Missions.storyboard; sourceTree = "<group>"; };
-		DE2E22AB2170F02D00B8CB06 /* Footprint.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Footprint.storyboard; sourceTree = "<group>"; };
 		DE2E22B02170F18E00B8CB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Plasticless/Base.lproj/NearMe.storyboard; sourceTree = "<group>"; };
 		DE2E22B22170F20200B8CB06 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		DE3813B8217651FD00613F55 /* MissionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsTableViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +151,30 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		DE1ABAD621777BE600B6209B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE1ABADB21777C8700B6209B /* Footprint.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DE1ABAD721777BEF00B6209B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE1ABADD21777C9200B6209B /* FootprintTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DE1ABAD821777BF500B6209B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE1ABAD921777C6300B6209B /* PlasticItem.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		DE2E22862170E7A600B8CB06 = {
 			isa = PBXGroup;
 			children = (
@@ -215,7 +243,9 @@
 		DE2E22B72170F32F00B8CB06 /* Footprint */ = {
 			isa = PBXGroup;
 			children = (
-				DE2E22AB2170F02D00B8CB06 /* Footprint.storyboard */,
+				DE1ABAD821777BF500B6209B /* Models */,
+				DE1ABAD721777BEF00B6209B /* Controllers */,
+				DE1ABAD621777BE600B6209B /* Views */,
 			);
 			path = Footprint;
 			sourceTree = "<group>";
@@ -372,7 +402,7 @@
 				DE2E22B32170F20200B8CB06 /* Profile.storyboard in Resources */,
 				DE2E229A2170E7A600B8CB06 /* Main.storyboard in Resources */,
 				DE2E22B12170F18E00B8CB06 /* NearMe.storyboard in Resources */,
-				DE2E22AC2170F02D00B8CB06 /* Footprint.storyboard in Resources */,
+				DE1ABADC21777C8700B6209B /* Footprint.storyboard in Resources */,
 				DE2E22AA2170ED4600B8CB06 /* Missions.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,9 +422,11 @@
 				178BD9B42176334800763665 /* User.swift in Sources */,
 				303C64B82174ED8900AFB35B /* MapViewController.swift in Sources */,
 				303C64B62174ED5C00AFB35B /* MapListTableViewController.swift in Sources */,
+				DE1ABADE21777C9200B6209B /* FootprintTableViewController.swift in Sources */,
 				303C64BA2174EDB500AFB35B /* NearMeViewController.swift in Sources */,
 				DE3813BE2176530D00613F55 /* SuperChallengeTableViewController.swift in Sources */,
 				DEC8CB38217642FE005C6FB4 /* Challenge.swift in Sources */,
+				DE1ABADA21777C6300B6209B /* PlasticItem.swift in Sources */,
 				DEC8CB3A21764335005C6FB4 /* SuperChallenge.swift in Sources */,
 				DE3813BC217652D800613F55 /* ChallengesTableViewController.swift in Sources */,
 				DE2E22932170E7A600B8CB06 /* AppDelegate.swift in Sources */,
