@@ -350,7 +350,7 @@
 				DE3813B9217651FD00613F55 /* MissionsTableViewController.swift in Sources */,
 				DEF81E962170F9C000006476 /* ProfileTableViewController.swift in Sources */,
 				5D31889A21763A6E00FCF8CD /* IdeasTableViewController.swift in Sources */,
-				5D31889C21763A9600FCF8CD /* DetailsTableViewController.swift in Sources */
+				5D31889C21763A9600FCF8CD /* DetailsTableViewController.swift in Sources */,
 				DE3813C22176539700613F55 /* ChallengeDetailTableViewController.swift in Sources */,
 				DE3813CA2176857800613F55 /* ChallengeCell.swift in Sources */,
 				DE3813C02176535B00613F55 /* ProgressTableViewController.swift in Sources */,
