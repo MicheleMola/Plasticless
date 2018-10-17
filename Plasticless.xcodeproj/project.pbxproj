@@ -40,8 +40,6 @@
 		DEC8CB3A21764335005C6FB4 /* SuperChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CB3921764335005C6FB4 /* SuperChallenge.swift */; };
 		DEC8CB3C217643BD005C6FB4 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CB3B217643BD005C6FB4 /* Progress.swift */; };
 		DEF81E962170F9C000006476 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF81E952170F9C000006476 /* ProfileTableViewController.swift */; };
-		F4A53986217630AA00C26144 /* PlasticItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A53985217630AA00C26144 /* PlasticItem.swift */; };
-		F4A53988217638D300C26144 /* FootprintTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A53987217638D300C26144 /* FootprintTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,8 +78,6 @@
 		DEC8CB3921764335005C6FB4 /* SuperChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperChallenge.swift; sourceTree = "<group>"; };
 		DEC8CB3B217643BD005C6FB4 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
 		DEF81E952170F9C000006476 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
-		F4A53985217630AA00C26144 /* PlasticItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlasticItem.swift; sourceTree = "<group>"; };
-		F4A53987217638D300C26144 /* FootprintTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,8 +161,8 @@
 		DE2E22B42170F28100B8CB06 /* Ideas */ = {
 			isa = PBXGroup;
 			children = (
-				F46CDA242177639000CD8ADD /* Models */,
-				F46CDA232177638200CD8ADD /* Controllers */,
+				DE2E22BC2170F39200B8CB06 /* Controllers */,
+				DE2E22BB2170F38B00B8CB06 /* Models */,
 				DE2E22BA2170F38500B8CB06 /* Views */,
 			);
 			path = Ideas;
@@ -195,9 +191,7 @@
 		DE2E22B72170F32F00B8CB06 /* Footprint */ = {
 			isa = PBXGroup;
 			children = (
-				F4D891E62174D150007CCA23 /* Models */,
-				F4D891E52174D147007CCA23 /* Controllers */,
-				F4D891E42174D13A007CCA23 /* Views */,
+				DE2E22AB2170F02D00B8CB06 /* Footprint.storyboard */,
 			);
 			path = Footprint;
 			sourceTree = "<group>";
@@ -222,6 +216,20 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		DE2E22BB2170F38B00B8CB06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE2E22BC2170F39200B8CB06 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		DE2E22BD2170F65100B8CB06 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,44 +242,6 @@
 			isa = PBXGroup;
 			children = (
 				DEF81E952170F9C000006476 /* ProfileTableViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		DE2E22BF2170F66D00B8CB06 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		F46CDA232177638200CD8ADD /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		F46CDA242177639000CD8ADD /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		F4D891E42174D13A007CCA23 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				DE2E22AB2170F02D00B8CB06 /* Footprint.storyboard */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		F4D891E52174D147007CCA23 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				F4A53987217638D300C26144 /* FootprintTableViewController.swift */,
-				DEF81E952170F9C000006476 /* ProfileTableViewController.swift */,
 				178BD9B721763A1600763665 /* EditProfileTableViewController.swift */,
 			);
 			path = Controllers;
@@ -281,7 +251,6 @@
 		DE2E22BF2170F66D00B8CB06 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F4A53985217630AA00C26144 /* PlasticItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -437,8 +406,6 @@
 				DEC8CB3621763FF1005C6FB4 /* Mission.swift in Sources */,
 				DEC8CB3C217643BD005C6FB4 /* Progress.swift in Sources */,
 				DE2E22952170E7A600B8CB06 /* FirstViewController.swift in Sources */,
-				F4A53986217630AA00C26144 /* PlasticItem.swift in Sources */,
-				F4A53988217638D300C26144 /* FootprintTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
