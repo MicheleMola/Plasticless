@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
+		178BD9B42176334800763665 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BD9B32176334800763665 /* User.swift */; };
+		178BD9B6217633D500763665 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BD9B5217633D500763665 /* Badge.swift */; };
+		178BD9B821763A1600763665 /* EditProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BD9B721763A1600763665 /* EditProfileTableViewController.swift */; };
 		302604482176381900365B4D /* InterestPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302604472176381900365B4D /* InterestPoint.swift */; };
 		303C64B62174ED5C00AFB35B /* MapListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C64B52174ED5C00AFB35B /* MapListTableViewController.swift */; };
 		303C64B82174ED8900AFB35B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C64B72174ED8900AFB35B /* MapViewController.swift */; };
@@ -39,6 +43,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+
+		178BD9B32176334800763665 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = Plasticless/Profile/Models/User.swift; sourceTree = SOURCE_ROOT; };
+		178BD9B5217633D500763665 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Badge.swift; path = Plasticless/Profile/Models/Badge.swift; sourceTree = SOURCE_ROOT; };
+		178BD9B721763A1600763665 /* EditProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileTableViewController.swift; sourceTree = "<group>"; };
 		302604472176381900365B4D /* InterestPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPoint.swift; sourceTree = "<group>"; };
 		303C64B52174ED5C00AFB35B /* MapListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListTableViewController.swift; sourceTree = "<group>"; };
 		303C64B72174ED8900AFB35B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +91,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+
+		1788244F21776241000D033B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				178BD9B32176334800763665 /* User.swift */,
+				178BD9B5217633D500763665 /* Badge.swift */,
 		303C64B22174D39400AFB35B /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +181,7 @@
 		DE2E22B62170F32300B8CB06 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				DE2E22BF2170F66D00B8CB06 /* Models */,
+				1788244F21776241000D033B /* Models */,
 				DE2E22BE2170F66100B8CB06 /* Controllers */,
 				DE2E22BD2170F65100B8CB06 /* Views */,
 			);
@@ -228,10 +242,12 @@
 			isa = PBXGroup;
 			children = (
 				DEF81E952170F9C000006476 /* ProfileTableViewController.swift */,
+				178BD9B721763A1600763665 /* EditProfileTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+
 		DE2E22BF2170F66D00B8CB06 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -288,6 +304,7 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -368,6 +385,10 @@
 			files = (
 				DE3813C82176774F00613F55 /* GenericDecoder.swift in Sources */,
 				DE2E22972170E7A600B8CB06 /* SecondViewController.swift in Sources */,
+
+				178BD9B821763A1600763665 /* EditProfileTableViewController.swift in Sources */,
+				178BD9B6217633D500763665 /* Badge.swift in Sources */,
+				178BD9B42176334800763665 /* User.swift in Sources */,
 				303C64B82174ED8900AFB35B /* MapViewController.swift in Sources */,
 				303C64B62174ED5C00AFB35B /* MapListTableViewController.swift in Sources */,
 				303C64BA2174EDB500AFB35B /* NearMeViewController.swift in Sources */,
