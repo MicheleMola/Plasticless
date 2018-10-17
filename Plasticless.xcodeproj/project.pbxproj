@@ -97,6 +97,10 @@
 			children = (
 				178BD9B32176334800763665 /* User.swift */,
 				178BD9B5217633D500763665 /* Badge.swift */,
+      );
+      path = Models;
+      sourceTree = "<group>";
+    };
 		303C64B22174D39400AFB35B /* Views */ = {
 			isa = PBXGroup;
 			children = (
