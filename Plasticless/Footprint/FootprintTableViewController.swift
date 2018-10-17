@@ -39,26 +39,29 @@ class FootprintTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         setupView()
+        hideKeyboardWhenTappedAround()
         
 //        for i in 0..<4 { // this will add 3 elements to PlasticItems
 //            itemsObj.append(PlasticItem(image: itemImages[i], name: itemNames[i], quantity: itemQuantities[i]))
 //        }
 //        
-//        super.viewDidLoad()
-//        
-//        // Enable the Save button only if the text field has a valid number.
-//        updateSaveButtonState()
+        super.viewDidLoad()
+        
+        // Enable the Save button only if the text field has a valid number.
+        updateSaveButtonState()
 
     }
     
     func setupView() {
-        
+        var imagesCollection: [UIImageView] = [itemOnePictureImageView, itemTwoPictureImageView, itemThreePictureImageView, itemFourPictureImageView]
+        var namesCollection: [UILabel] = [itemOneNameLabel, itemTwoNameLabel, itemThreeNameLabel, itemFourNameLabel]
+        var quantitiesCollection: [UITextField] = [itemOneQuantityTextField, itemTwoQuantityTextField, itemThreeQuantityTextField, itemFourQuantityTextField]
     }
     
     
     @IBAction func saveButtonOnClick(_ sender: Any) {
     }
-    // Enable the Save button only if the text field has a valid Meal name.
+    // Enable the Save button only if the text field has a valid  name.
     private func updateSaveButtonState() {
         // Disable the Save button if the text field is empty.
         let text = itemOneQuantityTextField.text ?? ""
@@ -76,22 +79,19 @@ class FootprintTableViewController: UITableViewController {
 
     }
     
-    
 
     
 }
 
-extension FootprintTableViewController : UITextFieldDelegate{
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        itemOneQuantityTextField.resignFirstResponder()
-        return true
-    }
-}
-
-// MARK: - UIScrollViewDelegate
+//Close keyboard when tap occurs
 extension FootprintTableViewController {
-    override func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
-        itemOneQuantityTextField.resignFirstResponder()
-
+    func hideKeyboardWhenTappedAround() {
+        let tapGesture = UITapGestureRecognizer(target: self,
+                                                action: #selector(hideKeyboard))
+        view.addGestureRecognizer(tapGesture)
+    }
+    
+    @objc func hideKeyboard() {
+        view.endEditing(true)
     }
 }

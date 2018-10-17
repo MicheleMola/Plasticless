@@ -77,7 +77,11 @@
                                                             </constraints>
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                            <textInputTraits key="textInputTraits"/>
+                                                            <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                                            <connections>
+                                                                <action selector="itemOneQuantityTextFieldDidBeginEditing:" destination="8yB-sX-zCl" eventType="editingDidEnd" id="8nw-Pz-oxl"/>
+                                                                <action selector="itemOneQuantityTextFieldDidEndEditing:" destination="8yB-sX-zCl" eventType="editingDidEnd" id="KG7-6W-O5a"/>
+                                                            </connections>
                                                         </textField>
                                                     </subviews>
                                                 </stackView>
@@ -122,7 +126,7 @@
                                                             </constraints>
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                            <textInputTraits key="textInputTraits"/>
+                                                            <textInputTraits key="textInputTraits" textContentType="tel"/>
                                                         </textField>
                                                     </subviews>
                                                 </stackView>
@@ -167,7 +171,7 @@
                                                             </constraints>
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                            <textInputTraits key="textInputTraits"/>
+                                                            <textInputTraits key="textInputTraits" textContentType="cc-number"/>
                                                         </textField>
                                                     </subviews>
                                                 </stackView>
@@ -212,7 +216,7 @@
                                                             </constraints>
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                            <textInputTraits key="textInputTraits"/>
+                                                            <textInputTraits key="textInputTraits" textContentType="tel"/>
                                                         </textField>
                                                     </subviews>
                                                 </stackView>

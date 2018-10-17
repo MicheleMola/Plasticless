@@ -42,6 +42,7 @@
 		DEC8CB3A21764335005C6FB4 /* SuperChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CB3921764335005C6FB4 /* SuperChallenge.swift */; };
 		DEC8CB3C217643BD005C6FB4 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CB3B217643BD005C6FB4 /* Progress.swift */; };
 		DEF81E962170F9C000006476 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF81E952170F9C000006476 /* ProfileTableViewController.swift */; };
+		F46CDA272177923100CD8ADD /* PlasticItems.json in Resources */ = {isa = PBXBuildFile; fileRef = F46CDA262177923100CD8ADD /* PlasticItems.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		DEC8CB3921764335005C6FB4 /* SuperChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperChallenge.swift; sourceTree = "<group>"; };
 		DEC8CB3B217643BD005C6FB4 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
 		DEF81E952170F9C000006476 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		F46CDA262177923100CD8ADD /* PlasticItems.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PlasticItems.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +240,7 @@
 		DE2E22B72170F32F00B8CB06 /* Footprint */ = {
 			isa = PBXGroup;
 			children = (
+				F46CDA2521778D7200CD8ADD /* Resources */,
 				DE1ABAD821777BF500B6209B /* Models */,
 				DE1ABAD721777BEF00B6209B /* Controllers */,
 				DE1ABAD621777BE600B6209B /* Views */,
@@ -330,6 +333,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		F46CDA2521778D7200CD8ADD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F46CDA262177923100CD8ADD /* PlasticItems.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -398,6 +409,7 @@
 				DE2E22B12170F18E00B8CB06 /* NearMe.storyboard in Resources */,
 				DE1ABADC21777C8700B6209B /* Footprint.storyboard in Resources */,
 				DE2E22AA2170ED4600B8CB06 /* Missions.storyboard in Resources */,
+				F46CDA272177923100CD8ADD /* PlasticItems.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
