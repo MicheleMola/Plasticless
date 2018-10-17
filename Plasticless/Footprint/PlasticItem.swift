@@ -9,7 +9,7 @@
 import UIKit
 
 struct PlasticItem {
-    let image: UIImage
+    let imageURL: URL
     let name: String
     let quantity: Int
 }

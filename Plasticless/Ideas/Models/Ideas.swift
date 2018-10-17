@@ -13,7 +13,7 @@ enum Category {
 }
 
 struct Idea {
-    let image: UIImage //se si apre una seconda immagine poi in details va creata una nuova variabile image
+    let imageURL: URL //se si apre una seconda immagine poi in details va creata una nuova variabile image
     let title: String
     let description: String
     let steps: String

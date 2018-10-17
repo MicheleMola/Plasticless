@@ -10,7 +10,7 @@ import UIKit
 
 // una struttura con tutti gli elementi neccessari al profilo (tutte le proprietà)
 struct User {
-    let image: UIImage
+    let imageURL: URL
     let fullName: String
     let address: String
     let badges: [Badge]

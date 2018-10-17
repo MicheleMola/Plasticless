@@ -9,7 +9,7 @@
 import UIKit
 
 struct Badge {
-    let image: UIImage
+    let imageURL: URL
     let name: String
     let description: String
 }

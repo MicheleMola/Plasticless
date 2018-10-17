@@ -9,10 +9,8 @@
 import MapKit
 
 struct InterestPoint {
-    
-    let image: UIImage
+    let imageURL: URL
     let name: String
     let description: String
-    let coordinate: CLLocationCoordinate2D
-    
+    let coordinate: CLLocationCoordinate2D    
 }
