@@ -14,5 +14,5 @@ struct SuperChallenge: Mission {
   var description: String
   var reward: String
   
-  //var badges: [Badge]
+  var badges: [Badge]
 }

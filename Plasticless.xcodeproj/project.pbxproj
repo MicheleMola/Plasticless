@@ -22,8 +22,6 @@
 		DE1ABADC21777C8700B6209B /* Footprint.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1ABADB21777C8700B6209B /* Footprint.storyboard */; };
 		DE1ABADE21777C9200B6209B /* FootprintTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1ABADD21777C9200B6209B /* FootprintTableViewController.swift */; };
 		DE2E22932170E7A600B8CB06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E22922170E7A600B8CB06 /* AppDelegate.swift */; };
-		DE2E22952170E7A600B8CB06 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E22942170E7A600B8CB06 /* FirstViewController.swift */; };
-		DE2E22972170E7A600B8CB06 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E22962170E7A600B8CB06 /* SecondViewController.swift */; };
 		DE2E229A2170E7A600B8CB06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22982170E7A600B8CB06 /* Main.storyboard */; };
 		DE2E229C2170E7A700B8CB06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2E229B2170E7A700B8CB06 /* Assets.xcassets */; };
 		DE2E229F2170E7A700B8CB06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E229D2170E7A700B8CB06 /* LaunchScreen.storyboard */; };
@@ -63,8 +61,6 @@
 		DE1ABADD21777C9200B6209B /* FootprintTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FootprintTableViewController.swift; sourceTree = "<group>"; };
 		DE2E228F2170E7A600B8CB06 /* Plasticless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plasticless.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2E22922170E7A600B8CB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE2E22942170E7A600B8CB06 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DE2E22962170E7A600B8CB06 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DE2E22992170E7A600B8CB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE2E229B2170E7A700B8CB06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE2E229E2170E7A700B8CB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -199,9 +195,8 @@
 				DE2E22B62170F32300B8CB06 /* Profile */,
 				DE2E22B72170F32F00B8CB06 /* Footprint */,
 				DE2E22B82170F34700B8CB06 /* Missions */,
+				DE3813C62176761200613F55 /* Helpers */,
 				DE2E22922170E7A600B8CB06 /* AppDelegate.swift */,
-				DE2E22942170E7A600B8CB06 /* FirstViewController.swift */,
-				DE2E22962170E7A600B8CB06 /* SecondViewController.swift */,
 				DE2E22982170E7A600B8CB06 /* Main.storyboard */,
 				DE2E229B2170E7A700B8CB06 /* Assets.xcassets */,
 				DE2E229D2170E7A700B8CB06 /* LaunchScreen.storyboard */,
@@ -253,7 +248,6 @@
 		DE2E22B82170F34700B8CB06 /* Missions */ = {
 			isa = PBXGroup;
 			children = (
-				DE3813C62176761200613F55 /* Helpers */,
 				DE3813C32176620000613F55 /* Resources */,
 				DE3813BA2176521100613F55 /* Controllers */,
 				DE8685992174D41800B3C035 /* Views */,
@@ -415,7 +409,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE3813C82176774F00613F55 /* GenericDecoder.swift in Sources */,
-				DE2E22972170E7A600B8CB06 /* SecondViewController.swift in Sources */,
 				178BD9B821763A1600763665 /* EditProfileTableViewController.swift in Sources */,
 				DE1ABACE21777A9300B6209B /* IdeasTableViewController.swift in Sources */,
 				178BD9B6217633D500763665 /* Badge.swift in Sources */,
@@ -440,7 +433,6 @@
 				DE1ABAD221777A9D00B6209B /* Ideas.swift in Sources */,
 				DEC8CB3621763FF1005C6FB4 /* Mission.swift in Sources */,
 				DEC8CB3C217643BD005C6FB4 /* Progress.swift in Sources */,
-				DE2E22952170E7A600B8CB06 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
