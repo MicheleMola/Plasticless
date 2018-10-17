@@ -13,7 +13,8 @@ struct User {
     let image: UIImage
     let fullName: String
     let address: String
-    let badges: [Badge] // è un Array di badges, si può indicare anche come let badges: Array<Badge>. Adesso è indicato con due parentesi quadre
+    let badges: [Badge]
+    // è un Array di badges, si può indicare anche come let badges: Array<Badge>. Adesso è indicato con due parentesi quadre
 }
 
 

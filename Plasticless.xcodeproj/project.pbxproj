@@ -25,8 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		178BD9B32176334800763665 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = SOURCE_ROOT; };
-		178BD9B5217633D500763665 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = SOURCE_ROOT; };
+		178BD9B32176334800763665 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = Plasticless/Profile/Models/User.swift; sourceTree = SOURCE_ROOT; };
+		178BD9B5217633D500763665 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Badge.swift; path = Plasticless/Profile/Models/Badge.swift; sourceTree = SOURCE_ROOT; };
 		178BD9B721763A1600763665 /* EditProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileTableViewController.swift; sourceTree = "<group>"; };
 		DE2E228F2170E7A600B8CB06 /* Plasticless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plasticless.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2E22922170E7A600B8CB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1788244F21776241000D033B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				178BD9B32176334800763665 /* User.swift */,
+				178BD9B5217633D500763665 /* Badge.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DE2E22862170E7A600B8CB06 = {
 			isa = PBXGroup;
 			children = (
@@ -111,7 +120,7 @@
 		DE2E22B62170F32300B8CB06 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				DE2E22BF2170F66D00B8CB06 /* Models */,
+				1788244F21776241000D033B /* Models */,
 				DE2E22BE2170F66100B8CB06 /* Controllers */,
 				DE2E22BD2170F65100B8CB06 /* Views */,
 			);
@@ -171,15 +180,6 @@
 				178BD9B721763A1600763665 /* EditProfileTableViewController.swift */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		DE2E22BF2170F66D00B8CB06 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				178BD9B32176334800763665 /* User.swift */,
-				178BD9B5217633D500763665 /* Badge.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
