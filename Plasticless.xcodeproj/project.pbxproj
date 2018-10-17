@@ -26,8 +26,8 @@
 
 /* Begin PBXFileReference section */
 		5D3188972176385500FCF8CD /* Ideas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ideas.swift; sourceTree = "<group>"; };
-		5D31889921763A6E00FCF8CD /* IdeasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IdeasTableViewController.swift; path = Plasticless/Ideas/IdeasTableViewController.swift; sourceTree = SOURCE_ROOT; };
-		5D31889B21763A9600FCF8CD /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsTableViewController.swift; path = Plasticless/Ideas/DetailsTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		5D31889921763A6E00FCF8CD /* IdeasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IdeasTableViewController.swift; path = Plasticless/Ideas/Controllers/IdeasTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		5D31889B21763A9600FCF8CD /* DetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailsTableViewController.swift; path = Plasticless/Ideas/Controllers/DetailsTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		DE2E228F2170E7A600B8CB06 /* Plasticless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plasticless.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2E22922170E7A600B8CB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE2E22942170E7A600B8CB06 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D18D21A217761BE00AE60EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D31889921763A6E00FCF8CD /* IdeasTableViewController.swift */,
+				5D31889B21763A9600FCF8CD /* DetailsTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		DE2E22862170E7A600B8CB06 = {
 			isa = PBXGroup;
 			children = (
@@ -93,7 +102,7 @@
 		DE2E22B42170F28100B8CB06 /* Ideas */ = {
 			isa = PBXGroup;
 			children = (
-				DE2E22BC2170F39200B8CB06 /* Controllers */,
+				5D18D21A217761BE00AE60EC /* Controllers */,
 				DE2E22BB2170F38B00B8CB06 /* Models */,
 				DE2E22BA2170F38500B8CB06 /* Views */,
 			);
@@ -148,15 +157,6 @@
 				5D3188972176385500FCF8CD /* Ideas.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		DE2E22BC2170F39200B8CB06 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				5D31889921763A6E00FCF8CD /* IdeasTableViewController.swift */,
-				5D31889B21763A9600FCF8CD /* DetailsTableViewController.swift */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		DE2E22BD2170F65100B8CB06 /* Views */ = {
