@@ -34,9 +34,10 @@
 		DE3813C02176535B00613F55 /* ProgressTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3813BF2176535B00613F55 /* ProgressTableViewController.swift */; };
 		DE3813C22176539700613F55 /* ChallengeDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3813C12176539700613F55 /* ChallengeDetailTableViewController.swift */; };
 		DE3813C52176637200613F55 /* Challenges.json in Resources */ = {isa = PBXBuildFile; fileRef = DE3813C42176637200613F55 /* Challenges.json */; };
-		DE3813C82176774F00613F55 /* GenericDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3813C72176774F00613F55 /* GenericDecoder.swift */; };
+		DE3813C82176774F00613F55 /* GenericCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3813C72176774F00613F55 /* GenericCoder.swift */; };
 		DE3813CA2176857800613F55 /* ChallengeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3813C92176857800613F55 /* ChallengeCell.swift */; };
 		DE3813CC21768C4F00613F55 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE3813CB21768C4F00613F55 /* Media.xcassets */; };
+		DEBA3D842178B09700FF0717 /* GenericCoderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBA3D832178B09700FF0717 /* GenericCoderError.swift */; };
 		DEC8CB3621763FF1005C6FB4 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CB3521763FF1005C6FB4 /* Mission.swift */; };
 		DEC8CB38217642FE005C6FB4 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CB37217642FE005C6FB4 /* Challenge.swift */; };
 		DEC8CB3A21764335005C6FB4 /* SuperChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CB3921764335005C6FB4 /* SuperChallenge.swift */; };
@@ -74,9 +75,10 @@
 		DE3813BF2176535B00613F55 /* ProgressTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTableViewController.swift; sourceTree = "<group>"; };
 		DE3813C12176539700613F55 /* ChallengeDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailTableViewController.swift; sourceTree = "<group>"; };
 		DE3813C42176637200613F55 /* Challenges.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Challenges.json; sourceTree = "<group>"; };
-		DE3813C72176774F00613F55 /* GenericDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDecoder.swift; sourceTree = "<group>"; };
+		DE3813C72176774F00613F55 /* GenericCoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCoder.swift; sourceTree = "<group>"; };
 		DE3813C92176857800613F55 /* ChallengeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCell.swift; sourceTree = "<group>"; };
 		DE3813CB21768C4F00613F55 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		DEBA3D832178B09700FF0717 /* GenericCoderError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCoderError.swift; sourceTree = "<group>"; };
 		DEC8CB3521763FF1005C6FB4 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		DEC8CB37217642FE005C6FB4 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
 		DEC8CB3921764335005C6FB4 /* SuperChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperChallenge.swift; sourceTree = "<group>"; };
@@ -305,7 +307,7 @@
 		DE3813C62176761200613F55 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				DE3813C72176774F00613F55 /* GenericDecoder.swift */,
+				DE3813C72176774F00613F55 /* GenericCoder.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -317,6 +319,7 @@
 				DEC8CB37217642FE005C6FB4 /* Challenge.swift */,
 				DEC8CB3921764335005C6FB4 /* SuperChallenge.swift */,
 				DEC8CB3B217643BD005C6FB4 /* Progress.swift */,
+				DEBA3D832178B09700FF0717 /* GenericCoderError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -408,7 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE3813C82176774F00613F55 /* GenericDecoder.swift in Sources */,
+				DE3813C82176774F00613F55 /* GenericCoder.swift in Sources */,
 				178BD9B821763A1600763665 /* EditProfileTableViewController.swift in Sources */,
 				DE1ABACE21777A9300B6209B /* IdeasTableViewController.swift in Sources */,
 				178BD9B6217633D500763665 /* Badge.swift in Sources */,
@@ -424,6 +427,7 @@
 				DE3813BC217652D800613F55 /* ChallengesTableViewController.swift in Sources */,
 				DE2E22932170E7A600B8CB06 /* AppDelegate.swift in Sources */,
 				DE3813B9217651FD00613F55 /* MissionsTableViewController.swift in Sources */,
+				DEBA3D842178B09700FF0717 /* GenericCoderError.swift in Sources */,
 				DEF81E962170F9C000006476 /* ProfileTableViewController.swift in Sources */,
 				DE1ABACF21777A9300B6209B /* DetailsTableViewController.swift in Sources */,
 				302604482176381900365B4D /* InterestPoint.swift in Sources */,

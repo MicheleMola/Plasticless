@@ -3,12 +3,14 @@
     "title": "First Challenge",
     "imageURL": "https://lauriebarrera.files.wordpress.com/2016/04/change-challenge-opportunity.jpg?w=945&h=945&zoom=2",
     "description": "This is the first challenge",
-    "reward": "100 plastic points"
+    "reward": "100 plastic points",
+    "completed": false
   },
   {
     "title": "Second Challenge",
     "imageURL": "https://www.thebondboard.org.uk/wp-content/uploads/2016/01/challenge-yourself-and-have-fun1.png",
     "description": "This is the second challenge",
-    "reward": "120 plastic points"
+    "reward": "120 plastic points",
+    "completed": false
   }
 ]
