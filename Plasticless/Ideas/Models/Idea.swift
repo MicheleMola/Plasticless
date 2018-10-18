@@ -7,16 +7,15 @@
 
 import UIKit
 
-enum Category {
-    case creativity
-    case suggestion //oppure tip (?)
+enum Category: String, Codable {
+    case Creativity
+    case Suggestion
 }
 
-struct Idea {
-    let imageURL: URL //se si apre una seconda immagine poi in details va creata una nuova variabile image
+struct Idea: Codable {
+    let imageURL: URL
     let title: String
     let description: String
     let steps: String
     let category: Category
-    
 }
