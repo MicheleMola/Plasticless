@@ -55,9 +55,8 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="92W-vi-iUV">
                                                     <rect key="frame" x="16" y="4" width="382" height="71.666666666666671"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wwf-NY-k0n">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-water-glass-512" translatesAutoresizingMaskIntoConstraints="NO" id="Wwf-NY-k0n">
                                                             <rect key="frame" x="0.0" y="1" width="70" height="70"/>
-                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="70" id="FJp-gi-mRA"/>
                                                                 <constraint firstAttribute="width" constant="70" id="Nnh-Jl-AsU"/>
@@ -69,7 +68,7 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="999" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HmH-g4-HoC">
+                                                        <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="000" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HmH-g4-HoC">
                                                             <rect key="frame" x="332" y="18.333333333333329" width="50" height="35"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="35" id="NnS-OF-gaP"/>
@@ -78,10 +77,11 @@
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
-                                                            <connections>
-                                                                <action selector="itemOneQuantityTextFieldDidBeginEditing:" destination="8yB-sX-zCl" eventType="editingDidEnd" id="8nw-Pz-oxl"/>
-                                                                <action selector="itemOneQuantityTextFieldDidEndEditing:" destination="8yB-sX-zCl" eventType="editingDidEnd" id="KG7-6W-O5a"/>
-                                                            </connections>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="maxLength">
+                                                                    <integer key="value" value="3"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
                                                         </textField>
                                                     </subviews>
                                                 </stackView>
@@ -104,9 +104,8 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="qTy-HY-t7j">
                                                     <rect key="frame" x="16" y="4" width="382" height="71.666666666666671"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x3T-zv-ZSp">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-plastic-500" translatesAutoresizingMaskIntoConstraints="NO" id="x3T-zv-ZSp">
                                                             <rect key="frame" x="0.0" y="1" width="70" height="70"/>
-                                                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="70" id="Q6V-GD-R3g"/>
                                                                 <constraint firstAttribute="width" constant="70" id="iwF-6Y-Pjh"/>
@@ -118,7 +117,7 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="999" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="959-yG-20i">
+                                                        <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="000" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="959-yG-20i">
                                                             <rect key="frame" x="332" y="18.333333333333329" width="50" height="35"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="35" id="BJa-Op-I77"/>
@@ -126,7 +125,12 @@
                                                             </constraints>
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                            <textInputTraits key="textInputTraits" textContentType="tel"/>
+                                                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="maxLength">
+                                                                    <integer key="value" value="3"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
                                                         </textField>
                                                     </subviews>
                                                 </stackView>
@@ -149,9 +153,8 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="NJB-zt-TA4">
                                                     <rect key="frame" x="16" y="4" width="382" height="71.666666666666671"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KlR-WY-j6x">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-tableware-500" translatesAutoresizingMaskIntoConstraints="NO" id="KlR-WY-j6x">
                                                             <rect key="frame" x="0.0" y="1" width="70" height="70"/>
-                                                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="70" id="5Ej-z1-i4v"/>
                                                                 <constraint firstAttribute="width" constant="70" id="jga-w9-V6Q"/>
@@ -163,7 +166,7 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="999" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ITL-3I-0Oy">
+                                                        <textField opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="000" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ITL-3I-0Oy">
                                                             <rect key="frame" x="332" y="18.333333333333329" width="50" height="35"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="50" id="Xe6-9x-CIf"/>
@@ -171,7 +174,12 @@
                                                             </constraints>
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                            <textInputTraits key="textInputTraits" textContentType="cc-number"/>
+                                                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="maxLength">
+                                                                    <integer key="value" value="3"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
                                                         </textField>
                                                     </subviews>
                                                 </stackView>
@@ -194,9 +202,8 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="6AJ-0p-TPl">
                                                     <rect key="frame" x="16" y="4" width="382" height="71.666666666666671"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xdu-Du-1Pl">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-soda-500" translatesAutoresizingMaskIntoConstraints="NO" id="xdu-Du-1Pl">
                                                             <rect key="frame" x="0.0" y="1" width="70" height="70"/>
-                                                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="70" id="EoB-tR-YVW"/>
                                                                 <constraint firstAttribute="width" constant="70" id="xNW-Gn-GVa"/>
@@ -208,7 +215,7 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="999" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oKi-tX-Gmt">
+                                                        <textField opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="000" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oKi-tX-Gmt">
                                                             <rect key="frame" x="332" y="18.333333333333329" width="50" height="35"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="50" id="GWS-Vx-Iar"/>
@@ -216,7 +223,12 @@
                                                             </constraints>
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                            <textInputTraits key="textInputTraits" textContentType="tel"/>
+                                                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="maxLength">
+                                                                    <integer key="value" value="3"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
                                                         </textField>
                                                     </subviews>
                                                 </stackView>
@@ -312,4 +324,10 @@
             <point key="canvasLocation" x="1217" y="358"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-plastic-500" width="375" height="375"/>
+        <image name="icons8-soda-500" width="375" height="375"/>
+        <image name="icons8-tableware-500" width="375" height="375"/>
+        <image name="icons8-water-glass-512" width="384" height="384"/>
+    </resources>
 </document>

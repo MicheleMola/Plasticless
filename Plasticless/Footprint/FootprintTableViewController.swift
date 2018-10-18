@@ -8,90 +8,102 @@
 
 import UIKit
 
-class FootprintTableViewController: UITableViewController {
-    //Outlets
-    @IBOutlet weak var saveButton: UIBarButtonItem!
-    @IBOutlet weak var tableViewDescription: UILabel!
+class FootprintTableViewController: UITableViewController, UITextFieldDelegate
+{
+  //Outlets
+  @IBOutlet weak var saveButton: UIBarButtonItem!
+  @IBOutlet weak var tableViewDescription: UILabel!
+  
+  @IBOutlet weak var itemOnePictureImageView: UIImageView!
+  @IBOutlet weak var itemOneNameLabel: UILabel!
+  @IBOutlet weak var itemOneQuantityTextField: UITextField!
+  
+  @IBOutlet weak var itemTwoPictureImageView: UIImageView!
+  @IBOutlet weak var itemTwoNameLabel: UILabel!
+  @IBOutlet weak var itemTwoQuantityTextField: UITextField!
+  
+  @IBOutlet weak var itemThreePictureImageView: UIImageView!
+  @IBOutlet weak var itemThreeNameLabel: UILabel!
+  @IBOutlet weak var itemThreeQuantityTextField: UITextField!
+  
+  @IBOutlet weak var itemFourPictureImageView: UIImageView!
+  @IBOutlet weak var itemFourNameLabel: UILabel!
+  @IBOutlet weak var itemFourQuantityTextField: UITextField!
+  
+  var itemsObj: [PlasticItem] = []
+  
+  
+  override func viewDidLoad() {
+    saveButton.isEnabled = false
+    setupView()
+    hideKeyboardWhenTappedAround()
+    updateSaveButtonState()
     
-    @IBOutlet weak var itemOnePictureImageView: UIImageView!
-    @IBOutlet weak var itemOneNameLabel: UILabel!
-    @IBOutlet weak var itemOneQuantityTextField: UITextField!
+    itemOneQuantityTextField.delegate = self
+    itemTwoQuantityTextField.delegate = self
+    itemThreeQuantityTextField.delegate = self
+    itemFourQuantityTextField.delegate = self
 
-    @IBOutlet weak var itemTwoPictureImageView: UIImageView!
-    @IBOutlet weak var itemTwoNameLabel: UILabel!
-    @IBOutlet weak var itemTwoQuantityTextField: UITextField!
+    super.viewDidLoad()
     
-    @IBOutlet weak var itemThreePictureImageView: UIImageView!
-    @IBOutlet weak var itemThreeNameLabel: UILabel!
-    @IBOutlet weak var itemThreeQuantityTextField: UITextField!
+  }
+  
+  func setupView() {
+    var namesCollection: [UILabel] = [itemOneNameLabel, itemTwoNameLabel, itemThreeNameLabel, itemFourNameLabel]
+    var quantitiesCollection: [UITextField] = [itemOneQuantityTextField, itemTwoQuantityTextField, itemThreeQuantityTextField, itemFourQuantityTextField]
     
-    @IBOutlet weak var itemFourPictureImageView: UIImageView!
-    @IBOutlet weak var itemFourNameLabel: UILabel!
-    @IBOutlet weak var itemFourQuantityTextField: UITextField!
+    self.itemsObj = GenericDecoder.decodeFromFile(withName: "PlasticItems") ?? []
     
-    //Create an instance of the object PlasticItem
-//    let myItems = PlasticItem(image: <#UIImage#>, name: <#String#>, quantity: <#Int#>)
-    var itemsObj = [PlasticItem]()
-    
-    var itemImages: [UIImage] = []
-    var itemNames: [String] = []
-    var itemQuantities: [Int] = []
-    
-    override func viewDidLoad() {
-        setupView()
-        hideKeyboardWhenTappedAround()
-        
-//        for i in 0..<4 { // this will add 3 elements to PlasticItems
-//            itemsObj.append(PlasticItem(image: itemImages[i], name: itemNames[i], quantity: itemQuantities[i]))
-//        }
-//        
-        super.viewDidLoad()
-        
-        // Enable the Save button only if the text field has a valid number.
-        updateSaveButtonState()
-
+    for (index, item) in self.itemsObj.enumerated() {
+      
+      namesCollection[index].text = item.name
+      
+      quantitiesCollection[index].text = "\(item.quantity)"
     }
     
-    func setupView() {
-        var imagesCollection: [UIImageView] = [itemOnePictureImageView, itemTwoPictureImageView, itemThreePictureImageView, itemFourPictureImageView]
-        var namesCollection: [UILabel] = [itemOneNameLabel, itemTwoNameLabel, itemThreeNameLabel, itemFourNameLabel]
-        var quantitiesCollection: [UITextField] = [itemOneQuantityTextField, itemTwoQuantityTextField, itemThreeQuantityTextField, itemFourQuantityTextField]
+  }
+  
+  
+  @IBAction func saveButtonOnClick(_ sender: Any) {
+  }
+  
+  // Enable the Save button only if the text field has a valid  name.
+  private func updateSaveButtonState() {
+    // Disable the Save button if the text field is empty.
+    let text1 = itemOneQuantityTextField.text ?? ""
+    let text2 = itemTwoQuantityTextField.text ?? ""
+    let text3 = itemThreeQuantityTextField.text ?? ""
+    let text4 = itemFourQuantityTextField.text ?? ""
+    
+    if (text1.isEmpty || text2.isEmpty || text3.isEmpty || text4.isEmpty){
+      saveButton.isEnabled = false
+    } else {
+      saveButton.isEnabled = true
     }
     
+  }
+  
+  func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+    let currentText = textField.text ?? ""
+    guard let stringRange = Range(range, in: currentText) else { return false }
     
-    @IBAction func saveButtonOnClick(_ sender: Any) {
-    }
-    // Enable the Save button only if the text field has a valid  name.
-    private func updateSaveButtonState() {
-        // Disable the Save button if the text field is empty.
-        let text = itemOneQuantityTextField.text ?? ""
-        saveButton.isEnabled = !text.isEmpty
-    }
-    
-    @IBAction func itemOneQuantityTextFieldDidBeginEditing(_ itemOneQuantityTextField: UITextField) {
-        // Disable the Save button while editing.
-        saveButton.isEnabled = false
-        updateSaveButtonState()
-    }
-    
-    @IBAction func itemOneQuantityTextFieldDidEndEditing(_ itemOneQuantityTextField: UITextField) {
-        updateSaveButtonState()
-
-    }
-    
-
-    
+    let updatedText = currentText.replacingCharacters(in: stringRange, with: string)
+    print("test")
+    updateSaveButtonState()
+    return updatedText.count <= 3
+  }
+  
 }
 
 //Close keyboard when tap occurs
 extension FootprintTableViewController {
-    func hideKeyboardWhenTappedAround() {
-        let tapGesture = UITapGestureRecognizer(target: self,
-                                                action: #selector(hideKeyboard))
-        view.addGestureRecognizer(tapGesture)
-    }
-    
-    @objc func hideKeyboard() {
-        view.endEditing(true)
-    }
+  func hideKeyboardWhenTappedAround() {
+    let tapGesture = UITapGestureRecognizer(target: self,
+                                            action: #selector(hideKeyboard))
+    view.addGestureRecognizer(tapGesture)
+  }
+  
+  @objc func hideKeyboard() {
+    view.endEditing(true)
+  }
 }

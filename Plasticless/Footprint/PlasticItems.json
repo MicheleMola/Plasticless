@@ -1,23 +1,17 @@
 [
-{
-"imageURL": "First_Item.png",
-"name": "Bottles",
-"quantity": "0",
-},
-{
-"imageURL": "Second_Item.png",
-"name": "Straws",
-"quantity": "0",
-}
-{
-"imageURL": "Third_Item.png",
-"name": "Plates",
-"quantity": "0",
-},
-{
-"imageURL": "Fourth_Item.png",
-"name": "Recipients",
-"quantity": "0",
-}
-]
-
+  {
+    "name": "Glasses",
+    "quantity": 0
+  },
+  {
+    "name": "Bottles",
+    "quantity": 0
+  },
+  {
+    "name": "Plates and utensils",
+    "quantity": 0
+  },
+  {
+    "name": "Cups",
+    "quantity": 0
+  }

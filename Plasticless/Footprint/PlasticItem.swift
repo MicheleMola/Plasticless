@@ -8,8 +8,7 @@
 
 import UIKit
 
-struct PlasticItem {
-    let imageURL: URL
-    let name: String
-    let quantity: Int
+struct PlasticItem: Codable {
+  var name: String
+  var quantity: Int
 }

@@ -43,6 +43,7 @@
 		DEC8CB3C217643BD005C6FB4 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CB3B217643BD005C6FB4 /* Progress.swift */; };
 		DEF81E962170F9C000006476 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF81E952170F9C000006476 /* ProfileTableViewController.swift */; };
 		F46CDA272177923100CD8ADD /* PlasticItems.json in Resources */ = {isa = PBXBuildFile; fileRef = F46CDA262177923100CD8ADD /* PlasticItems.json */; };
+		F4BB2E062178B97F00397583 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BB2E052178B97F00397583 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		DEC8CB3B217643BD005C6FB4 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
 		DEF81E952170F9C000006476 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		F46CDA262177923100CD8ADD /* PlasticItems.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PlasticItems.json; sourceTree = "<group>"; };
+		F4BB2E052178B97F00397583 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -337,6 +339,7 @@
 			isa = PBXGroup;
 			children = (
 				F46CDA262177923100CD8ADD /* PlasticItems.json */,
+				F4BB2E052178B97F00397583 /* Media.xcassets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 				DE2E22B12170F18E00B8CB06 /* NearMe.storyboard in Resources */,
 				DE1ABADC21777C8700B6209B /* Footprint.storyboard in Resources */,
 				DE2E22AA2170ED4600B8CB06 /* Missions.storyboard in Resources */,
+				F4BB2E062178B97F00397583 /* Media.xcassets in Resources */,
 				F46CDA272177923100CD8ADD /* PlasticItems.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
