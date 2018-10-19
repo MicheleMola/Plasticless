@@ -19,8 +19,15 @@ class ChallengesTableViewController: UITableViewController {
   }
   
   func getChallenges() {
-    self.challenges = GenericDecoder.decodeFromFile(withName: "Challenges") ?? []
-    tableView.reloadData()
+    do {
+      self.challenges = try GenericCoder.decodeFromFile(withName: FileNames.Challenges) ?? []
+      print(self.challenges)
+      tableView.reloadData()
+    
+    } catch let error {
+      print(error)
+    }
+    
   }
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
