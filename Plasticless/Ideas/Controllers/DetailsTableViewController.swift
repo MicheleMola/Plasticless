@@ -10,13 +10,32 @@ import UIKit
 
 class DetailsTableViewController: UITableViewController {
 
+    var idea: Idea?
+    
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var descriptionTextView: UITextView!
+    @IBOutlet weak var titleLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+    
+        setupView()
+    }
+    
+    func setupView() {
+        tableView.tableFooterView = UIView()
+        
+        if let idea = idea {
+            
+            DispatchQueue.global().async {
+                let data = try? Data(contentsOf: idea.imageURL)
+                DispatchQueue.main.async {
+                    self.imageView.image = UIImage(data: data!)
+                }
+            }
+            
+            titleLabel.text = idea.title
+            descriptionTextView.text = idea.description
+        }
     }
 }

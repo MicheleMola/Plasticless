@@ -13,7 +13,7 @@ class MissionsTableViewController: UITableViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    
+
   }
   
 }
