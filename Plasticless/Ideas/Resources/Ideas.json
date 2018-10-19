@@ -1,23 +1,39 @@
 [
 {
-    "imageURL": "https://images.pexels.com/photos/1000084/pexels-photo-1000084.jpeg?cs=srgb&dl=bottle-clean-clear-1000084.jpg&fm=jpg",
-    "title" : "Water Bottles - Nestling Vegetables",
+    "imageURL": "https://static.boredpanda.com/blog/wp-content/uploads/2014/07/plastic-bottles-recycling-ideas-21.jpg",
+    "title": "Plastic Bottles - Jewelry Stand",
     "description" : "This is our description",
     "steps" : "This is our steps",
     "category" : "Creativity",
 },
 
 {
-    "imageURL": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi-49uG443eAhXIy6QKHX58A9UQjRx6BAgBEAU&url=http%3A%2F%2Fwww.fabartdiy.com%2Fhow-to-make-glitter-butterfly-from-plastic-bottles%2F&psig=AOvVaw2JZyCIrWv2FPSXgCuwOQM0&ust=1539875931308850",
-    "title" : "Bottles of butterfly",
+    "imageURL": "https://images.pexels.com/photos/761297/pexels-photo-761297.jpeg?cs=srgb&dl=bottle-caps-bright-close-up-761297.jpg&fm=jpg",
+    "title": "Bottle Caps - Save the Caps",
+    "description": "How many times have you opened a beer and flicked the cap into the regular bin? Too many!\nWhile you’d be right to keep such tiny items out of the recycling when they’re loose (they’d just fall through the sorting equipment at the facility), metal bottle tops can actually be recycled with a little bit of forethought.\nFor steel bottle caps, such as those from beer bottles, save them up in an empty steel tin until it’s half-full, then crimp the tin closed so the caps can’t fall out, and off to recycling they go.\nAluminium caps can receive the same treatment in an aluminium can.",
+    "steps": "Steps",
+    "category": "Creativity",
+},
+
+{
+    "imageURL": "https://makeit-loveit.com/wp-content/uploads/2015/01/No-Sew-Zipper-Cases-from-old-SODA-or-water-BOTTLES-2.jpg",
+    "title": "Plastic Bottles - Zipper Cases",
+    "description": "Turn your old plastic bottles into useful and sturdy no-sew zipper cases that will help you organize your life, for almost no cost at all.\nYou can use them to store all sorts of art and craft supplies.\nThis is also an awesome back-to-school idea for kids.\nTo make one, cut the plastic bottle, glue a zipper to it, customise the decorations and you’re done.\nEach of the cases use the bottom from 2 plastic bottles. They are attached together with one zipper, making it nice and simple for little hands to access whatever is inside.",
+    "steps": "",
+    "category": "Creativity",
+},
+
+{
+    "imageURL": "https://static.boredpanda.com/blog/wp-content/uploads/2014/07/plastic-bottles-recycling-ideas-11.jpg",
+    "title" : "Water Bottles - Nestling Vegetables",
     "description" : "This is our description 2",
-    "steps" : "This is our steps 2",
+    "steps" : "1)Remove the label from the bottle and clean the inside.\n2)Take a sharp object and poke drainage holes in the top third of the bottle.\n3)Poke a hole in the side of the bottle about half-way down.\n4)Wrap a piece of paper around the bottle.\n5)Take a marker and trace a cutting line around the bottle.\n6)Cut along the bottle on the line.\n7)Flip over the bottle top and insert a strip of fabric.\n8)Make sure the fabric is in contact with the soil.",
     "category" : "Creativity",
 },
 
 {
-    "imageURL": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj8v8KW443eAhVILMAKHYAuBCUQjRx6BAgBEAU&url=https%3A%2F%2Fwww.instructables.com%2Fid%2FPlastic-Bottle-Planters%2F&psig=AOvVaw2IIacH2EvUw6suA0oVcFWO&ust=1539875973857333",
-    "title" : "Flower planter",
+    "imageURL": "https://i.pinimg.com/originals/5c/02/38/5c02389e964ad0a449104fc43aea73f3.jpg",
+    "title" : "Bottles Caps - Flowers",
     "description" : "This is our description 3",
     "steps" : "This is our steps 3",
     "category" : "Creativity",
@@ -37,5 +53,29 @@
     "description" : "This is our description 5",
     "steps" : "This is our steps 5",
     "category" : "Suggestion",
+},
+
+{
+    "imageURL": "https://www.buschsystems.com/resource-center/images/uploads/library/beer-caps-1.jpg",
+    "title": "Beer caps - Magnets",
+    "description": "Due to the small size of the caps, more often than not they get lost during the recycling process!\nIn fact, recycling beer caps can ultimately prevent the proper recycling process from taking place.\nTransforming your beer caps into fridge magnets are a simple, and fun option anyone can easily replicate.\nAll you need is your cap, glue, and a magnet.\nIt’s never been easier to do your part to help the planet and create something practical at the same time.",
+    "steps": "",
+    "category": "Suggestion",
+},
+
+{
+    "imageURL": "https://www.buschsystems.com/resource-center/images/uploads/library/beer-caps-2.jpg",
+    "title":"Beer caps - Jewelry",
+    "description": "Next time you open up a cold beer, why not dabble in some other options through upcycling, re-purposing and getting creative with your beer caps.\nBeer caps can be a beautiful and fun fashion accessory.\nTry out a pair of beer cap earrings, a necklace or rings!\nVery simple to create and they make an excellent statement.\nBottle cap jewelry also makes a unique DIY gift for that female beer lover in your life!\nKeep them on your body instead of out in the environment!",
+    "steps": "",
+    "category": "Suggestion",
+},
+
+{
+    "imageURL": "https://www.buschsystems.com/resource-center/images/uploads/library/beer-caps-3.jpg",
+    "title":"Beer caps - Furniture",
+    "description": "For the ambitious craftsmen out there, if you save up enough beer caps you can create some unique furniture.\nPeople are even creating chairs entirely made out of caps!\nThese pieces of furniture can make a great rainy day project and can help diminish their effect on the environment and recycling process.\nIt’s incredible what you can achieve with a little creativity and a lot of bottle caps!",
+    "steps": "",
+    "category": "Suggestion",
 },
 ]
