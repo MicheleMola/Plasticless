@@ -13,4 +13,5 @@ protocol Mission {
   var imageURL: URL { get set }
   var description: String { get set }
   var reward: String { get set }
+  var completed: Bool { get set }
 }

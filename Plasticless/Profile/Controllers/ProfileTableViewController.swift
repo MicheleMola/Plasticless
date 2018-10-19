@@ -10,7 +10,12 @@ import UIKit
 
 class ProfileTableViewController: UITableViewController {
   
-    @IBOutlet weak var nameSurname: UILabel!
+    @IBOutlet weak var profileImageUIImageView: UIImageView!
+    @IBOutlet weak var nameSurnameUILabel: UILabel!
+    @IBOutlet weak var addressOneUILabel: UILabel!
+    @IBOutlet weak var addressTwoUILabel: UILabel!
+    @IBOutlet weak var yourBadgesUICollectionView: UICollectionView!
+    
     
   override func viewDidLoad() {
     super.viewDidLoad()

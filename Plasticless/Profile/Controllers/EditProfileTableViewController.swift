@@ -11,6 +11,13 @@ import UIKit
 
 class EditProfileTableViewController: UITableViewController {
 
+    @IBOutlet weak var editProfileImageUIImageView: UIImageView!
+    @IBOutlet weak var editNameSurnameUITextField: UITextField!
+    @IBOutlet weak var editAddressOneUITextField: UITextField!
+    @IBOutlet weak var editAddressTwoUITextField: UITextField!
+    @IBAction func saveProfileUserDataUIButton(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

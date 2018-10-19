@@ -1,19 +1,18 @@
 //
-//  ChallengeCell.swift
+//  InterestPointCell.swift
 //  Plasticless
 //
-//  Created by Michele Mola on 16/10/2018.
+//  Created by Emilio Arvonio on 18/10/2018.
 //  Copyright © 2018 Michele Mola. All rights reserved.
 //
 
 import UIKit
 
-class ChallengeCell: UITableViewCell {
-  static let reuseIdentifier = "ChallengeCell"
+class InterestPointCell: UITableViewCell {
+  static let reuseIdentifier = "InterestPointCell"
   
   @IBOutlet weak var photoImageView: UIImageView!
   @IBOutlet weak var titleLabel: UILabel!
-  @IBOutlet weak var checkImageView: UIImageView!
   
   override func awakeFromNib() {
     super.awakeFromNib()
@@ -26,13 +25,12 @@ class ChallengeCell: UITableViewCell {
     // Configure the view for the selected state
   }
   
-  func configure(withChallenge challenge: Challenge) {
-    self.titleLabel.text = challenge.title
-    self.checkImageView.image = challenge.completed ? UIImage(named: "checkicon") : nil
+  func configure(withInterestPoint point: InterestPoint) {
+    self.titleLabel.text = point.name
     
     // Not correct - Use Kingfisher
     DispatchQueue.global().async {
-      let data = try? Data(contentsOf: challenge.imageURL)
+      let data = try? Data(contentsOf: point.imageURL)
       DispatchQueue.main.async {
         self.photoImageView.image = UIImage(data: data!)
       }

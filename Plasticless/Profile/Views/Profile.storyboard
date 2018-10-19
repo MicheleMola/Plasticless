@@ -155,7 +155,11 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="nameSurname" destination="czG-0f-oEN" id="PhC-wD-dml"/>
+                        <outlet property="addressOneUILabel" destination="OKU-5n-tfb" id="u8E-fg-CAk"/>
+                        <outlet property="addressTwoUILabel" destination="bhm-It-nBF" id="PcP-hx-Cy0"/>
+                        <outlet property="nameSurnameUILabel" destination="czG-0f-oEN" id="w5n-li-VaD"/>
+                        <outlet property="profileImageUIImageView" destination="GMO-zj-05W" id="JNR-yD-4pG"/>
+                        <outlet property="yourBadgesUICollectionView" destination="3OA-Dh-BA7" id="YGE-wh-t5Q"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NCW-En-ARZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -260,8 +264,18 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Profile Edit" largeTitleDisplayMode="always" id="l8W-ZF-dbz">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="1CQ-pG-Tkh"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="1CQ-pG-Tkh">
+                            <connections>
+                                <action selector="saveProfileUserDataUIButton:" destination="bOD-m1-JZL" id="9bl-hw-PmA"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="editAddressOneUITextField" destination="l1T-DF-Dfe" id="xvn-Bw-nBS"/>
+                        <outlet property="editAddressTwoUITextField" destination="ky5-VG-97a" id="Ozv-Xv-6im"/>
+                        <outlet property="editNameSurnameUITextField" destination="ikI-4A-End" id="fze-4C-Sa2"/>
+                        <outlet property="editProfileImageUIImageView" destination="RTn-Sn-v27" id="2Gq-WL-tjZ"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6to-ee-Kuy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

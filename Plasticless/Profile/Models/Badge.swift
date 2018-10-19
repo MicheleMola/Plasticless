@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct Badge {
+struct Badge: Codable {
     let imageURL: URL
     let name: String
     let description: String
