@@ -21,6 +21,7 @@ class ChallengesTableViewController: UITableViewController {
   func getChallenges() {
     do {
       self.challenges = try GenericCoder.decodeFromFile(withName: FileNames.Challenges) ?? []
+      print(self.challenges)
       tableView.reloadData()
     
     } catch let error {

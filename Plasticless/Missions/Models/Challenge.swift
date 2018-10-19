@@ -15,3 +15,9 @@ struct Challenge: Mission, Codable {
   var description: String
   var reward: String
 }
+
+extension Challenge: Equatable {
+  static func ==(lhs: Challenge, rhs: Challenge) -> Bool {
+    return lhs.title == rhs.title
+  }
+}

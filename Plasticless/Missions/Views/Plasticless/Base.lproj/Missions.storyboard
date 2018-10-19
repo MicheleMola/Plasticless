@@ -494,7 +494,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Mission" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fah-X8-A1T">
-                                            <rect key="frame" x="107" y="29.666666666666671" width="226" height="20.333333333333329"/>
+                                            <rect key="frame" x="107" y="30" width="186" height="20"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -506,16 +506,26 @@
                                                 <constraint firstAttribute="height" constant="70" id="Kzd-vf-nTt"/>
                                             </constraints>
                                         </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0ra-eu-hNW">
+                                            <rect key="frame" x="303" y="25" width="30" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="UaX-2r-3xy"/>
+                                                <constraint firstAttribute="width" constant="30" id="eeZ-9G-fJ0"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="xck-dI-CvY" firstAttribute="centerY" secondItem="cj3-lN-dPz" secondAttribute="centerY" id="1gD-Qy-Dey"/>
-                                        <constraint firstAttribute="trailing" secondItem="Fah-X8-A1T" secondAttribute="trailing" constant="8" id="Dh0-ze-PCK"/>
                                         <constraint firstItem="Fah-X8-A1T" firstAttribute="leading" secondItem="xck-dI-CvY" secondAttribute="trailing" constant="21" id="XxB-Y6-TSi"/>
+                                        <constraint firstItem="0ra-eu-hNW" firstAttribute="leading" secondItem="Fah-X8-A1T" secondAttribute="trailing" constant="10" id="YUt-a1-kMo"/>
+                                        <constraint firstAttribute="trailing" secondItem="0ra-eu-hNW" secondAttribute="trailing" constant="8" id="iod-tu-Sy2"/>
                                         <constraint firstItem="Fah-X8-A1T" firstAttribute="centerY" secondItem="cj3-lN-dPz" secondAttribute="centerY" id="nRl-2N-Ut1"/>
                                         <constraint firstItem="xck-dI-CvY" firstAttribute="leading" secondItem="cj3-lN-dPz" secondAttribute="leading" constant="16" id="sUP-8T-hKx"/>
+                                        <constraint firstItem="0ra-eu-hNW" firstAttribute="centerY" secondItem="cj3-lN-dPz" secondAttribute="centerY" id="vSH-mm-SlS"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="checkImageView" destination="0ra-eu-hNW" id="ndH-fT-TKu"/>
                                     <outlet property="photoImageView" destination="xck-dI-CvY" id="HV8-Id-NyY"/>
                                     <outlet property="titleLabel" destination="Fah-X8-A1T" id="pjB-Ke-Q1h"/>
                                     <segue destination="QrT-eE-RFI" kind="show" identifier="showDetail" id="RRV-52-q3v"/>
@@ -536,7 +546,7 @@
         <scene sceneID="nda-SW-y0K">
             <objects>
                 <tableViewController id="QrT-eE-RFI" customClass="ChallengeDetailTableViewController" customModule="Plasticless" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="phF-J7-cxR">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="phF-J7-cxR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -629,9 +639,13 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="cf0-wd-0CS"/>
                                                     </constraints>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                                     <state key="normal" title="Complete">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
+                                                    <connections>
+                                                        <action selector="completePressed:" destination="QrT-eE-RFI" eventType="touchUpInside" id="10t-gy-MuZ"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -650,6 +664,7 @@
                         </connections>
                     </tableView>
                     <connections>
+                        <outlet property="completeButton" destination="T5H-tR-n8v" id="eWF-E8-iba"/>
                         <outlet property="descriptionTextView" destination="DLn-7r-hPh" id="cZR-ye-aRo"/>
                         <outlet property="rewardLabel" destination="zeH-zt-jNZ" id="ai1-IM-0qb"/>
                         <outlet property="titleLabel" destination="VVK-RX-9sC" id="ovc-u9-lB2"/>

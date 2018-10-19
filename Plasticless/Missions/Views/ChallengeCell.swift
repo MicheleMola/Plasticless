@@ -13,6 +13,7 @@ class ChallengeCell: UITableViewCell {
   
   @IBOutlet weak var photoImageView: UIImageView!
   @IBOutlet weak var titleLabel: UILabel!
+  @IBOutlet weak var checkImageView: UIImageView!
   
   override func awakeFromNib() {
     super.awakeFromNib()
@@ -27,6 +28,7 @@ class ChallengeCell: UITableViewCell {
   
   func configure(withChallenge challenge: Challenge) {
     self.titleLabel.text = challenge.title
+    self.checkImageView.image = challenge.completed ? UIImage(named: "checkicon") : nil
     
     // Not correct - Use Kingfisher
     DispatchQueue.global().async {
