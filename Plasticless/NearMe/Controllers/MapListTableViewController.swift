@@ -29,6 +29,17 @@ class MapListTableViewController: UITableViewController {
     print(self.points)
     tableView.reloadData()
   }
+  
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if segue.identifier == "showDetail" {
+      if let interestPointDetailTVC = segue.destination as? MapListDetailsTableViewController {
+        if let indexPath = self.tableView.indexPathForSelectedRow {
+          interestPointDetailTVC.point = self.points[indexPath.row]
+        }
+      }
+    }
+  }
+
 
 }
 

@@ -11,6 +11,7 @@ import MapKit
 class InterestPoint: Codable {
   let imageURL: URL
   let name: String
+  let duration: String
   let description: String
   let type: String
   let latitude: Double

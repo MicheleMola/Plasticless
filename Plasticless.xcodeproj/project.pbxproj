@@ -14,6 +14,7 @@
 		303C64B62174ED5C00AFB35B /* MapListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C64B52174ED5C00AFB35B /* MapListTableViewController.swift */; };
 		303C64B82174ED8900AFB35B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C64B72174ED8900AFB35B /* MapViewController.swift */; };
 		303C64BA2174EDB500AFB35B /* NearMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C64B92174EDB500AFB35B /* NearMeViewController.swift */; };
+		3045AE4A217A118F00604EBF /* MapListDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3045AE49217A118F00604EBF /* MapListDetailsTableViewController.swift */; };
 		305DCCCF2178C67700C2EF20 /* InterestPointViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305DCCCE2178C67700C2EF20 /* InterestPointViews.swift */; };
 		305DCCD12178CC5A00C2EF20 /* InterestPointCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305DCCD02178CC5A00C2EF20 /* InterestPointCell.swift */; };
 		30C8D5FC2177876A00544F11 /* InterestPoints.json in Resources */ = {isa = PBXBuildFile; fileRef = 30C8D5FB2177876A00544F11 /* InterestPoints.json */; };
@@ -57,6 +58,7 @@
 		303C64B52174ED5C00AFB35B /* MapListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListTableViewController.swift; sourceTree = "<group>"; };
 		303C64B72174ED8900AFB35B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		303C64B92174EDB500AFB35B /* NearMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeViewController.swift; sourceTree = "<group>"; };
+		3045AE49217A118F00604EBF /* MapListDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListDetailsTableViewController.swift; sourceTree = "<group>"; };
 		305DCCCC2178B85000C2EF20 /* GPSLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GPSLocation.gpx; sourceTree = "<group>"; };
 		305DCCCD2178B8E800C2EF20 /* GPSLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = GPSLocation.gpx; path = Plasticless/NearMe/Resources/GPSLocation.gpx; sourceTree = "<group>"; };
 		305DCCCE2178C67700C2EF20 /* InterestPointViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPointViews.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				303C64B52174ED5C00AFB35B /* MapListTableViewController.swift */,
 				303C64B72174ED8900AFB35B /* MapViewController.swift */,
 				303C64B92174EDB500AFB35B /* NearMeViewController.swift */,
+				3045AE49217A118F00604EBF /* MapListDetailsTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 				178BD9B6217633D500763665 /* Badge.swift in Sources */,
 				178BD9B42176334800763665 /* User.swift in Sources */,
 				303C64B82174ED8900AFB35B /* MapViewController.swift in Sources */,
+				3045AE4A217A118F00604EBF /* MapListDetailsTableViewController.swift in Sources */,
 				303C64B62174ED5C00AFB35B /* MapListTableViewController.swift in Sources */,
 				DE1ABADE21777C9200B6209B /* FootprintTableViewController.swift in Sources */,
 				303C64BA2174EDB500AFB35B /* NearMeViewController.swift in Sources */,
