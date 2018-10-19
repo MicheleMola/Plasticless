@@ -14,7 +14,6 @@ class DetailsTableViewController: UITableViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var descriptionTextView: UITextView!
-    @IBOutlet weak var stepsTextView: UITextView!
     @IBOutlet weak var titleLabel: UILabel!
     
     override func viewDidLoad() {
@@ -37,7 +36,6 @@ class DetailsTableViewController: UITableViewController {
             
             titleLabel.text = idea.title
             descriptionTextView.text = idea.description
-            stepsTextView.text = idea.steps
         }
     }
 }

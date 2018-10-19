@@ -16,6 +16,5 @@ struct Idea: Codable {
     let imageURL: URL
     let title: String
     let description: String
-    let steps: String
     let category: Category
 }
