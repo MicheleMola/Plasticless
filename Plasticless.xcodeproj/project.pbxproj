@@ -14,6 +14,11 @@
 		303C64B62174ED5C00AFB35B /* MapListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C64B52174ED5C00AFB35B /* MapListTableViewController.swift */; };
 		303C64B82174ED8900AFB35B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C64B72174ED8900AFB35B /* MapViewController.swift */; };
 		303C64BA2174EDB500AFB35B /* NearMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C64B92174EDB500AFB35B /* NearMeViewController.swift */; };
+		305DCCCF2178C67700C2EF20 /* InterestPointViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305DCCCE2178C67700C2EF20 /* InterestPointViews.swift */; };
+		305DCCD12178CC5A00C2EF20 /* InterestPointCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305DCCD02178CC5A00C2EF20 /* InterestPointCell.swift */; };
+		30C8D5FC2177876A00544F11 /* InterestPoints.json in Resources */ = {isa = PBXBuildFile; fileRef = 30C8D5FB2177876A00544F11 /* InterestPoints.json */; };
+		30C8D5FE217787B200544F11 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C8D5FD217787B200544F11 /* Media.xcassets */; };
+		30C8D60021778EDF00544F11 /* InterestPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C8D5FF21778EDF00544F11 /* InterestPointAnnotation.swift */; };
 		DE1ABACE21777A9300B6209B /* IdeasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1ABACC21777A9300B6209B /* IdeasTableViewController.swift */; };
 		DE1ABACF21777A9300B6209B /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1ABACD21777A9300B6209B /* DetailsTableViewController.swift */; };
 		DE1ABAD221777A9D00B6209B /* Ideas.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1ABAD021777A9D00B6209B /* Ideas.swift */; };
@@ -52,6 +57,13 @@
 		303C64B52174ED5C00AFB35B /* MapListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListTableViewController.swift; sourceTree = "<group>"; };
 		303C64B72174ED8900AFB35B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		303C64B92174EDB500AFB35B /* NearMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeViewController.swift; sourceTree = "<group>"; };
+		305DCCCC2178B85000C2EF20 /* GPSLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GPSLocation.gpx; sourceTree = "<group>"; };
+		305DCCCD2178B8E800C2EF20 /* GPSLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = GPSLocation.gpx; path = Plasticless/NearMe/Resources/GPSLocation.gpx; sourceTree = "<group>"; };
+		305DCCCE2178C67700C2EF20 /* InterestPointViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPointViews.swift; sourceTree = "<group>"; };
+		305DCCD02178CC5A00C2EF20 /* InterestPointCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPointCell.swift; sourceTree = "<group>"; };
+		30C8D5FB2177876A00544F11 /* InterestPoints.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = InterestPoints.json; sourceTree = "<group>"; };
+		30C8D5FD217787B200544F11 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		30C8D5FF21778EDF00544F11 /* InterestPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPointAnnotation.swift; sourceTree = "<group>"; };
 		DE1ABACC21777A9300B6209B /* IdeasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeasTableViewController.swift; sourceTree = "<group>"; };
 		DE1ABACD21777A9300B6209B /* DetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
 		DE1ABAD021777A9D00B6209B /* Ideas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ideas.swift; sourceTree = "<group>"; };
@@ -108,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				DE2E22AF2170F18E00B8CB06 /* NearMe.storyboard */,
+				305DCCCE2178C67700C2EF20 /* InterestPointViews.swift */,
+				305DCCD02178CC5A00C2EF20 /* InterestPointCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -126,8 +140,19 @@
 			isa = PBXGroup;
 			children = (
 				302604472176381900365B4D /* InterestPoint.swift */,
+				30C8D5FF21778EDF00544F11 /* InterestPointAnnotation.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		30C8D5FA217786F800544F11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				30C8D5FB2177876A00544F11 /* InterestPoints.json */,
+				30C8D5FD217787B200544F11 /* Media.xcassets */,
+				305DCCCC2178B85000C2EF20 /* GPSLocation.gpx */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		DE1ABACA2177792900B6209B /* Models */ = {
@@ -174,6 +199,7 @@
 		DE2E22862170E7A600B8CB06 = {
 			isa = PBXGroup;
 			children = (
+				305DCCCD2178B8E800C2EF20 /* GPSLocation.gpx */,
 				DE2E22912170E7A600B8CB06 /* Plasticless */,
 				DE2E22902170E7A600B8CB06 /* Products */,
 			);
@@ -218,6 +244,7 @@
 		DE2E22B52170F31A00B8CB06 /* NearMe */ = {
 			isa = PBXGroup;
 			children = (
+				30C8D5FA217786F800544F11 /* Resources */,
 				303C64B42174D3A900AFB35B /* Models */,
 				303C64B32174D39E00AFB35B /* Controllers */,
 				303C64B22174D39400AFB35B /* Views */,
@@ -396,7 +423,9 @@
 				DE2E22B32170F20200B8CB06 /* Profile.storyboard in Resources */,
 				DE2E229A2170E7A600B8CB06 /* Main.storyboard in Resources */,
 				DE2E22B12170F18E00B8CB06 /* NearMe.storyboard in Resources */,
+				30C8D5FC2177876A00544F11 /* InterestPoints.json in Resources */,
 				DE1ABADC21777C8700B6209B /* Footprint.storyboard in Resources */,
+				30C8D5FE217787B200544F11 /* Media.xcassets in Resources */,
 				DE2E22AA2170ED4600B8CB06 /* Missions.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +450,7 @@
 				DEC8CB38217642FE005C6FB4 /* Challenge.swift in Sources */,
 				DE1ABADA21777C6300B6209B /* PlasticItem.swift in Sources */,
 				DEC8CB3A21764335005C6FB4 /* SuperChallenge.swift in Sources */,
+				305DCCCF2178C67700C2EF20 /* InterestPointViews.swift in Sources */,
 				DE3813BC217652D800613F55 /* ChallengesTableViewController.swift in Sources */,
 				DE2E22932170E7A600B8CB06 /* AppDelegate.swift in Sources */,
 				DE3813B9217651FD00613F55 /* MissionsTableViewController.swift in Sources */,
@@ -429,8 +459,10 @@
 				302604482176381900365B4D /* InterestPoint.swift in Sources */,
 				DE3813C22176539700613F55 /* ChallengeDetailTableViewController.swift in Sources */,
 				DE3813CA2176857800613F55 /* ChallengeCell.swift in Sources */,
+				305DCCD12178CC5A00C2EF20 /* InterestPointCell.swift in Sources */,
 				DE3813C02176535B00613F55 /* ProgressTableViewController.swift in Sources */,
 				DE1ABAD221777A9D00B6209B /* Ideas.swift in Sources */,
+				30C8D60021778EDF00544F11 /* InterestPointAnnotation.swift in Sources */,
 				DEC8CB3621763FF1005C6FB4 /* Mission.swift in Sources */,
 				DEC8CB3C217643BD005C6FB4 /* Progress.swift in Sources */,
 			);

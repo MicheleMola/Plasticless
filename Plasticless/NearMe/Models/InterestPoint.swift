@@ -8,9 +8,11 @@
 
 import MapKit
 
-struct InterestPoint {
-    let imageURL: URL
-    let name: String
-    let description: String
-    let coordinate: CLLocationCoordinate2D    
+class InterestPoint: Codable {
+  let imageURL: URL
+  let name: String
+  let description: String
+  let type: String
+  let latitude: Double
+  let longitude: Double
 }
