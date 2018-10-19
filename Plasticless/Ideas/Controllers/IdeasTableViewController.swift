@@ -20,8 +20,13 @@ class IdeasTableViewController: UITableViewController {
     }
     
     func getIdeas() {
-        self.ideas = GenericDecoder.decodeFromFile(withName: "Ideas") ?? []
+      do {
+        self.ideas = try GenericCoder.decodeFromFile(withName: .Ideas) ?? []
         dividiIdeas()
+      } catch let error {
+        print(error)
+      }
+      
     }
     
     func dividiIdeas() {

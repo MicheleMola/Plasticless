@@ -8,6 +8,8 @@
 
 enum FileNames: String {
   case Challenges = "Challenges"
+  case Ideas = "Ideas"
+  case InterestPoints = "InterestPoints"
 }
 
 import Foundation
@@ -41,12 +43,8 @@ class GenericCoder {
       let jsonData = try encoder.encode(collection)
       if let jsonString = String(data: jsonData, encoding: .utf8) {
       
-        var fileURL: URL!
         let filename = "\(name.rawValue).json"
-        switch name {
-        case .Challenges:
-          fileURL = GenericCoder().getDocumentsDirectory().appendingPathComponent(filename)
-        }
+        let fileURL = GenericCoder().getDocumentsDirectory().appendingPathComponent(filename)
         
         do {
           try jsonString.write(to: fileURL, atomically: true, encoding: String.Encoding.utf8)

@@ -35,7 +35,11 @@ class MapViewController: UIViewController {
                      forAnnotationViewWithReuseIdentifier: MKMapViewDefaultAnnotationViewReuseIdentifier)
 
     
-    self.points = GenericDecoder.decodeFromFile(withName: "InterestPoints") ?? []
+    do {
+      self.points = try GenericCoder.decodeFromFile(withName: .InterestPoints) ?? []
+    } catch let error {
+      print(error)
+    }
     
     for point in self.points {
       annotationPoints.append(InterestPointAnnotation(interestPoint: point))

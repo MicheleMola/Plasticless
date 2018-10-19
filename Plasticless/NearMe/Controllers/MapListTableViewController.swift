@@ -25,9 +25,12 @@ class MapListTableViewController: UITableViewController {
     }
   
   func getPoints() {
-    self.points = GenericDecoder.decodeFromFile(withName: "InterestPoints") ?? []
-    print(self.points)
-    tableView.reloadData()
+    do {
+      self.points = try GenericCoder.decodeFromFile(withName: .InterestPoints) ?? []
+      tableView.reloadData()
+    } catch let error {
+      print(error)
+    }
   }
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

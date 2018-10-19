@@ -14,14 +14,13 @@
 		303C64B62174ED5C00AFB35B /* MapListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C64B52174ED5C00AFB35B /* MapListTableViewController.swift */; };
 		303C64B82174ED8900AFB35B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C64B72174ED8900AFB35B /* MapViewController.swift */; };
 		303C64BA2174EDB500AFB35B /* NearMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C64B92174EDB500AFB35B /* NearMeViewController.swift */; };
-		5D10B1B22177C22D00A7404E /* IdeaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D10B1B12177C22D00A7404E /* IdeaCell.swift */; };
-		5DCE55362177881300345828 /* Ideas.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DCE55352177881300345828 /* Ideas.json */; };
 		3045AE4A217A118F00604EBF /* MapListDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3045AE49217A118F00604EBF /* MapListDetailsTableViewController.swift */; };
 		305DCCCF2178C67700C2EF20 /* InterestPointViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305DCCCE2178C67700C2EF20 /* InterestPointViews.swift */; };
 		305DCCD12178CC5A00C2EF20 /* InterestPointCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305DCCD02178CC5A00C2EF20 /* InterestPointCell.swift */; };
 		30C8D5FC2177876A00544F11 /* InterestPoints.json in Resources */ = {isa = PBXBuildFile; fileRef = 30C8D5FB2177876A00544F11 /* InterestPoints.json */; };
-		30C8D5FE217787B200544F11 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30C8D5FD217787B200544F11 /* Media.xcassets */; };
 		30C8D60021778EDF00544F11 /* InterestPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C8D5FF21778EDF00544F11 /* InterestPointAnnotation.swift */; };
+		5D10B1B22177C22D00A7404E /* IdeaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D10B1B12177C22D00A7404E /* IdeaCell.swift */; };
+		5DCE55362177881300345828 /* Ideas.json in Resources */ = {isa = PBXBuildFile; fileRef = 5DCE55352177881300345828 /* Ideas.json */; };
 		DE1ABACE21777A9300B6209B /* IdeasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1ABACC21777A9300B6209B /* IdeasTableViewController.swift */; };
 		DE1ABACF21777A9300B6209B /* DetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1ABACD21777A9300B6209B /* DetailsTableViewController.swift */; };
 		DE1ABAD221777A9D00B6209B /* Idea.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1ABAD021777A9D00B6209B /* Idea.swift */; };
@@ -62,16 +61,13 @@
 		303C64B52174ED5C00AFB35B /* MapListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListTableViewController.swift; sourceTree = "<group>"; };
 		303C64B72174ED8900AFB35B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		303C64B92174EDB500AFB35B /* NearMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearMeViewController.swift; sourceTree = "<group>"; };
-		5D10B1B12177C22D00A7404E /* IdeaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaCell.swift; sourceTree = "<group>"; };
-		5DCE55352177881300345828 /* Ideas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Ideas.json; sourceTree = "<group>"; };
 		3045AE49217A118F00604EBF /* MapListDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListDetailsTableViewController.swift; sourceTree = "<group>"; };
-		305DCCCC2178B85000C2EF20 /* GPSLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = GPSLocation.gpx; sourceTree = "<group>"; };
-		305DCCCD2178B8E800C2EF20 /* GPSLocation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = GPSLocation.gpx; path = Plasticless/NearMe/Resources/GPSLocation.gpx; sourceTree = "<group>"; };
 		305DCCCE2178C67700C2EF20 /* InterestPointViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPointViews.swift; sourceTree = "<group>"; };
 		305DCCD02178CC5A00C2EF20 /* InterestPointCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPointCell.swift; sourceTree = "<group>"; };
 		30C8D5FB2177876A00544F11 /* InterestPoints.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = InterestPoints.json; sourceTree = "<group>"; };
-		30C8D5FD217787B200544F11 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		30C8D5FF21778EDF00544F11 /* InterestPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPointAnnotation.swift; sourceTree = "<group>"; };
+		5D10B1B12177C22D00A7404E /* IdeaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaCell.swift; sourceTree = "<group>"; };
+		5DCE55352177881300345828 /* Ideas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Ideas.json; sourceTree = "<group>"; };
 		DE1ABACC21777A9300B6209B /* IdeasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeasTableViewController.swift; sourceTree = "<group>"; };
 		DE1ABACD21777A9300B6209B /* DetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
 		DE1ABAD021777A9D00B6209B /* Idea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Idea.swift; sourceTree = "<group>"; };
@@ -160,9 +156,14 @@
 			isa = PBXGroup;
 			children = (
 				30C8D5FB2177876A00544F11 /* InterestPoints.json */,
-				30C8D5FD217787B200544F11 /* Media.xcassets */,
-				305DCCCC2178B85000C2EF20 /* GPSLocation.gpx */,
-
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5DCE55312177877400345828 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DCE55352177881300345828 /* Ideas.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -192,14 +193,6 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
-		5DCE55312177877400345828 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5DCE55352177881300345828 /* Ideas.json */,
-        );
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		DE1ABAD721777BEF00B6209B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,7 +212,6 @@
 		DE2E22862170E7A600B8CB06 = {
 			isa = PBXGroup;
 			children = (
-				305DCCCD2178B8E800C2EF20 /* GPSLocation.gpx */,
 				DE2E22912170E7A600B8CB06 /* Plasticless */,
 				DE2E22902170E7A600B8CB06 /* Products */,
 			);
@@ -451,7 +443,6 @@
 				DE2E22B12170F18E00B8CB06 /* NearMe.storyboard in Resources */,
 				30C8D5FC2177876A00544F11 /* InterestPoints.json in Resources */,
 				DE1ABADC21777C8700B6209B /* Footprint.storyboard in Resources */,
-				30C8D5FE217787B200544F11 /* Media.xcassets in Resources */,
 				DE2E22AA2170ED4600B8CB06 /* Missions.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,7 +481,7 @@
 				305DCCD12178CC5A00C2EF20 /* InterestPointCell.swift in Sources */,
 				DE3813C02176535B00613F55 /* ProgressTableViewController.swift in Sources */,
 				DE1ABAD221777A9D00B6209B /* Idea.swift in Sources */,
-				DE1ABAD221777A9D00B6209B /* Ideas.swift in Sources */,
+				DE1ABAD221777A9D00B6209B /* Idea.swift in Sources */,
 				30C8D60021778EDF00544F11 /* InterestPointAnnotation.swift in Sources */,
 				DEC8CB3621763FF1005C6FB4 /* Mission.swift in Sources */,
 				5D10B1B22177C22D00A7404E /* IdeaCell.swift in Sources */,
