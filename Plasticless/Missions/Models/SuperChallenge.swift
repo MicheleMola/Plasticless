@@ -8,12 +8,12 @@
 
 import UIKit
 
-struct SuperChallenge: Mission {
+struct SuperChallenge: Mission, Codable {
   var completed: Bool
   var title: String
   var imageURL: URL
   var description: String
   var reward: String
   
-  var badges: [Badge]
+  var badge: Badge
 }

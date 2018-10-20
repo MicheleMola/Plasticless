@@ -8,6 +8,7 @@
 
 enum FileNames: String {
   case Challenges = "Challenges"
+  case SuperChallenges = "SuperChallenges"
   case Ideas = "Ideas"
   case InterestPoints = "InterestPoints"
 }

@@ -14,7 +14,6 @@ class MapListDetailsTableViewController: UITableViewController {
   @IBOutlet weak var nameLabel: UILabel!
   @IBOutlet weak var durationLabel: UILabel!
   @IBOutlet weak var descriptionTextView: UITextView!
-  @IBOutlet weak var durationLabelTableViewCell: UITableViewCell!
   @IBOutlet weak var durationTableViewCell: UITableViewCell!
   @IBOutlet var mapListDetailTVC: UITableView!
   
@@ -38,10 +37,7 @@ class MapListDetailsTableViewController: UITableViewController {
       if point.duration == "" {
         
         durationTableViewCell.isHidden = true
-        durationLabelTableViewCell.isHidden = true
-        
       } else {
-        
         durationLabel.text = point.duration
         
       }

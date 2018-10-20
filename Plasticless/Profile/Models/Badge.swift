@@ -9,7 +9,7 @@
 import UIKit
 
 struct Badge: Codable {
-    let imageURL: URL
+    let imageName: String
     let name: String
     let description: String
 }

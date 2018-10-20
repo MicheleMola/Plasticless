@@ -34,15 +34,15 @@ class ChallengeDetailTableViewController: UITableViewController {
       descriptionTextView.text = challenge.description
       rewardLabel.text = challenge.reward
       
-      if challenge.completed {
-        completeButton.setTitle("Completed", for: .normal)
-        completeButton.isEnabled = false
-        completeButton.backgroundColor = UIColor.green
-      } else {
-        completeButton.setTitle("Complete", for: .normal)
-        completeButton.isEnabled = true
-        completeButton.backgroundColor = UIColor.red
-      }
+//      if challenge.completed {
+//        completeButton.setTitle("Completed", for: .normal)
+//        completeButton.isEnabled = false
+//        completeButton.backgroundColor = UIColor.green
+//      } else {
+//        completeButton.setTitle("Complete", for: .normal)
+//        completeButton.isEnabled = true
+//        completeButton.backgroundColor = UIColor.red
+//      }
       
       getChallenges()
     }

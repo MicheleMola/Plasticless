@@ -4,9 +4,12 @@
     "imageURL": "https://lauriebarrera.files.wordpress.com/2016/04/change-challenge-opportunity.jpg?w=945&h=945&zoom=2",
     "description": "This is the second super challenge",
     "reward": "100 plastic points",
-    "completed": false,
-    "badges": [{
-    }]
+    "completed": true,
+    "badge": {
+      "imageName": "firstBadge",
+      "name": "First Badge",
+      "description": "This is the first big badge"
+    }
   },
   {
     "title": "Second Super Challenge",
@@ -14,7 +17,10 @@
     "description": "This is the second super challenge",
     "reward": "120 plastic points",
     "completed": false,
-    "badges": [{
-    }]
+    "badge": {
+      "imageName": "secondBadge",
+      "name": "Second Badge",
+      "description": "This is the second beaufiful badge"
+    }
   }
 ]

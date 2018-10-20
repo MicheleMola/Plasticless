@@ -26,12 +26,21 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="219.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pollution" translatesAutoresizingMaskIntoConstraints="NO" id="uOs-Me-EOK">
+                                                <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pollution" translatesAutoresizingMaskIntoConstraints="NO" id="uOs-Me-EOK">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="219.66666666666666"/>
                                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </imageView>
+                                                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="4jt-40-so4">
+                                                    <rect key="frame" x="168" y="172" width="39" height="37"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="39" id="4NM-EW-ME4"/>
+                                                    </constraints>
+                                                    <color key="pageIndicatorTintColor" red="0.41608625650405884" green="0.59601587057113647" blue="0.58038961887359619" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </pageControl>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="4jt-40-so4" firstAttribute="top" secondItem="uOs-Me-EOK" secondAttribute="bottom" constant="-47.666666666666657" id="HnJ-qN-73t"/>
+                                                <constraint firstItem="4jt-40-so4" firstAttribute="centerX" secondItem="uOs-Me-EOK" secondAttribute="centerX" id="WKX-Z9-AvS"/>
                                                 <constraint firstItem="uOs-Me-EOK" firstAttribute="leading" secondItem="kV6-be-eaU" secondAttribute="leading" id="a6t-dU-bXE"/>
                                                 <constraint firstItem="uOs-Me-EOK" firstAttribute="top" secondItem="kV6-be-eaU" secondAttribute="top" id="b2U-ES-LrD"/>
                                                 <constraint firstAttribute="trailing" secondItem="uOs-Me-EOK" secondAttribute="trailing" id="ggk-iv-VWD"/>
@@ -72,7 +81,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="ChallengeYourself" translatesAutoresizingMaskIntoConstraints="NO" id="JZa-YL-kpi">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="first" translatesAutoresizingMaskIntoConstraints="NO" id="JZa-YL-kpi">
                                                     <rect key="frame" x="16" y="40" width="343" height="149.66666666666666"/>
                                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </imageView>
@@ -103,7 +112,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="ChallengeYourself" translatesAutoresizingMaskIntoConstraints="NO" id="yRM-a2-03o">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="second" translatesAutoresizingMaskIntoConstraints="NO" id="yRM-a2-03o">
                                                     <rect key="frame" x="16" y="40" width="343" height="149.66666666666666"/>
                                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </imageView>
@@ -134,7 +143,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="ChallengeYourself" translatesAutoresizingMaskIntoConstraints="NO" id="Umu-ry-AbD">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="third" translatesAutoresizingMaskIntoConstraints="NO" id="Umu-ry-AbD">
                                                     <rect key="frame" x="16" y="40" width="343" height="149.66666666666666"/>
                                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </imageView>
@@ -184,7 +193,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="99.666666666666671"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use two less plastic cups and recycle creatively all your bottles" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n9b-vt-a1z">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Use two less plastic cups and recycle creatively all your bottles" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n9b-vt-a1z">
                                                     <rect key="frame" x="16" y="11" width="343" height="78"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -265,7 +274,6 @@
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="v8D-WQ-67G">
                                                     <rect key="frame" x="16" y="39" width="94" height="94"/>
-                                                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="94" id="LnV-D3-Ucp"/>
                                                         <constraint firstAttribute="height" constant="94" id="a1W-L6-qhk"/>
@@ -288,6 +296,12 @@
                             <outlet property="delegate" destination="hK3-cZ-k4b" id="WQX-6a-tTF"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="badgeImageView" destination="v8D-WQ-67G" id="0dg-jK-MhG"/>
+                        <outlet property="descriptionTextView" destination="JbT-t7-tqt" id="YOM-SY-Qex"/>
+                        <outlet property="rewardLabel" destination="FOV-qe-5Mt" id="qw3-xY-C0k"/>
+                        <outlet property="titleLabel" destination="n9b-vt-a1z" id="5Da-0z-SfF"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QoU-Hf-keb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -633,7 +647,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="79.666666666666671"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5H-tR-n8v">
+                                                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5H-tR-n8v">
                                                     <rect key="frame" x="93.666666666666671" y="20" width="187.66666666666663" height="40"/>
                                                     <color key="backgroundColor" red="0.91921168565750122" green="0.34864333447454504" blue="0.22531908095459091" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <constraints>
@@ -678,7 +692,7 @@
         <scene sceneID="GLh-u2-sKV">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zK2-cx-8Cd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Missions" id="xlp-i1-fr3"/>
+                    <tabBarItem key="tabBarItem" title="Missions" image="mission" id="xlp-i1-fr3"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0B2-Cn-VaH">
@@ -696,7 +710,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ChallengeYourself" width="2938" height="1446"/>
+        <image name="first" width="375" height="161"/>
+        <image name="mission" width="25" height="25"/>
         <image name="pollution" width="2000" height="1000"/>
+        <image name="second" width="375" height="161"/>
+        <image name="third" width="375" height="161"/>
     </resources>
 </document>

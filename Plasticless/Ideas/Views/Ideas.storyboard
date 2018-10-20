@@ -71,7 +71,7 @@
         <scene sceneID="ub2-h9-aXr">
             <objects>
                 <tableViewController title="Details" id="hBG-up-9zb" customClass="DetailsTableViewController" customModule="Plasticless" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" directionalLockEnabled="YES" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="8ku-N2-Jpf">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" directionalLockEnabled="YES" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="static" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="8ku-N2-Jpf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -86,13 +86,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bcy-AD-0Jc">
-                                                    <rect key="frame" x="20" y="11" width="374" height="238"/>
+                                                    <rect key="frame" x="0.0" y="11" width="414" height="238"/>
                                                     <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="bcy-AD-0Jc" firstAttribute="leading" secondItem="5t0-fI-b4L" secondAttribute="leading" constant="20" id="68R-On-jcx"/>
-                                                <constraint firstAttribute="trailing" secondItem="bcy-AD-0Jc" secondAttribute="trailing" constant="20" id="SXh-I5-6n8"/>
+                                                <constraint firstItem="bcy-AD-0Jc" firstAttribute="leading" secondItem="5t0-fI-b4L" secondAttribute="leading" id="68R-On-jcx"/>
+                                                <constraint firstAttribute="trailing" secondItem="bcy-AD-0Jc" secondAttribute="trailing" id="SXh-I5-6n8"/>
                                                 <constraint firstAttribute="bottom" secondItem="bcy-AD-0Jc" secondAttribute="bottom" constant="10.5" id="Y4e-1A-hxR"/>
                                                 <constraint firstItem="bcy-AD-0Jc" firstAttribute="top" secondItem="5t0-fI-b4L" secondAttribute="top" constant="11" id="e4r-7G-8Ud"/>
                                             </constraints>
@@ -107,7 +107,7 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQk-EG-2Ge">
                                                     <rect key="frame" x="20" y="11" width="374" height="58"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -135,8 +135,8 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x4D-W5-LWR">
-                                                    <rect key="frame" x="20" y="11" width="88" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="20" y="11" width="95" height="21"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -180,7 +180,7 @@
         <scene sceneID="87l-5b-fEJ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lf7-UR-wSe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Ideas" id="V9D-sf-aaj">
+                    <tabBarItem key="tabBarItem" title="Ideas" image="ideas" id="V9D-sf-aaj">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -199,4 +199,7 @@
             <point key="canvasLocation" x="1764" y="-278.41079460269867"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ideas" width="25" height="25"/>
+    </resources>
 </document>
