@@ -45,6 +45,7 @@
 		DE3813CA2176857800613F55 /* ChallengeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3813C92176857800613F55 /* ChallengeCell.swift */; };
 		DE3813CC21768C4F00613F55 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE3813CB21768C4F00613F55 /* Media.xcassets */; };
 		DEAE869D217A0DDA0061963E /* SuperChallenges.json in Resources */ = {isa = PBXBuildFile; fileRef = DEAE869C217A0DDA0061963E /* SuperChallenges.json */; };
+		DEB8A5F9217B521E00BE3111 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB8A5F8217B521E00BE3111 /* Media.xcassets */; };
 		DEBA3D842178B09700FF0717 /* GenericCoderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBA3D832178B09700FF0717 /* GenericCoderError.swift */; };
 		DEC8CB3621763FF1005C6FB4 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CB3521763FF1005C6FB4 /* Mission.swift */; };
 		DEC8CB38217642FE005C6FB4 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC8CB37217642FE005C6FB4 /* Challenge.swift */; };
@@ -94,6 +95,7 @@
 		DE3813C92176857800613F55 /* ChallengeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCell.swift; sourceTree = "<group>"; };
 		DE3813CB21768C4F00613F55 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		DEAE869C217A0DDA0061963E /* SuperChallenges.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SuperChallenges.json; sourceTree = "<group>"; };
+		DEB8A5F8217B521E00BE3111 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		DEBA3D832178B09700FF0717 /* GenericCoderError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCoderError.swift; sourceTree = "<group>"; };
 		DEC8CB3521763FF1005C6FB4 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		DEC8CB37217642FE005C6FB4 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				30C8D5FB2177876A00544F11 /* InterestPoints.json */,
+				DEB8A5F8217B521E00BE3111 /* Media.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 			files = (
 				DE3813CC21768C4F00613F55 /* Media.xcassets in Resources */,
 				DE2E229F2170E7A700B8CB06 /* LaunchScreen.storyboard in Resources */,
+				DEB8A5F9217B521E00BE3111 /* Media.xcassets in Resources */,
 				DE3813C52176637200613F55 /* Challenges.json in Resources */,
 				DE1ABAD521777AC900B6209B /* Ideas.storyboard in Resources */,
 				DE2E229C2170E7A700B8CB06 /* Assets.xcassets in Resources */,
