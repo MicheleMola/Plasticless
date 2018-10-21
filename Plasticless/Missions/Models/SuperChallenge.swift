@@ -11,7 +11,6 @@ import UIKit
 struct SuperChallenge: Mission, Codable {
   var completed: Bool
   var title: String
-  var imageURL: URL
   var description: String
   var reward: String
   

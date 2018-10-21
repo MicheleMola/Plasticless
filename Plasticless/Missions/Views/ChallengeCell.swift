@@ -30,13 +30,7 @@ class ChallengeCell: UITableViewCell {
     self.titleLabel.text = challenge.title
     self.checkImageView.image = challenge.completed ? UIImage(named: "checkicon") : nil
     
-    // Not correct - Use Kingfisher
-    DispatchQueue.global().async {
-      let data = try? Data(contentsOf: challenge.imageURL)
-      DispatchQueue.main.async {
-        self.photoImageView.image = UIImage(data: data!)
-      }
-    }
+    self.photoImageView.image = UIImage(named: challenge.imageName)
   }
   
 }

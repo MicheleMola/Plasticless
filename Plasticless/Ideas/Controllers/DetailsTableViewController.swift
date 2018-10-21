@@ -7,35 +7,32 @@
 //
 
 import UIKit
+import Kingfisher
 
 class DetailsTableViewController: UITableViewController {
+  
+  var idea: Idea?
+  
+  @IBOutlet weak var imageView: UIImageView!
+  @IBOutlet weak var descriptionTextView: UITextView!
+  @IBOutlet weak var titleLabel: UILabel!
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    setupView()
+  }
+  
+  func setupView() {
+    tableView.tableFooterView = UIView()
+    
+    if let idea = idea {
+      
+      // Kingfisher
+      imageView.kf.setImage(with: idea.imageURL, placeholder: UIImage(named: "placeholder"))
 
-    var idea: Idea?
-    
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var descriptionTextView: UITextView!
-    @IBOutlet weak var titleLabel: UILabel!
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    
-        setupView()
+      titleLabel.text = idea.title
+      descriptionTextView.text = idea.description
     }
-    
-    func setupView() {
-        tableView.tableFooterView = UIView()
-        
-        if let idea = idea {
-            
-            DispatchQueue.global().async {
-                let data = try? Data(contentsOf: idea.imageURL)
-                DispatchQueue.main.async {
-                    self.imageView.image = UIImage(data: data!)
-                }
-            }
-            
-            titleLabel.text = idea.title
-            descriptionTextView.text = idea.description
-        }
-    }
+  }
 }

@@ -17,6 +17,8 @@ class MapListDetailsTableViewController: UITableViewController {
   @IBOutlet weak var durationTableViewCell: UITableViewCell!
   @IBOutlet var mapListDetailTVC: UITableView!
   
+  @IBOutlet weak var typeLabel: UILabel!
+  
   var point: InterestPoint?
   
   override func viewDidLoad() {
@@ -35,19 +37,14 @@ class MapListDetailsTableViewController: UITableViewController {
       nameLabel.text = point.name
       descriptionTextView.text = point.description
       if point.duration == "" {
-        
         durationTableViewCell.isHidden = true
       } else {
         durationLabel.text = point.duration
-        
       }
       
-      DispatchQueue.global().async {
-        let data = try? Data(contentsOf: point.imageURL)
-        DispatchQueue.main.async {
-          self.imageUIImageView.image = UIImage(data: data!)
-        }
-      }
+      self.imageUIImageView.kf.setImage(with: point.imageURL, placeholder: UIImage(named: "placeholder"))
+      
+      typeLabel.text = point.type
     }
   }
   

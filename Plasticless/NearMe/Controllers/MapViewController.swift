@@ -15,7 +15,7 @@ class MapViewController: UIViewController {
   
   let locationManager = CLLocationManager()
   
-  let regionRadius: CLLocationDistance = 200
+  let regionRadius: CLLocationDistance = 5000
   
   var points: [InterestPoint] = []
   
@@ -26,8 +26,7 @@ class MapViewController: UIViewController {
     
     mapView.delegate = self
 
-    
-    // set initial location in Honolulu
+    // set initial location in University
     let initialLocation = CLLocation(latitude: 40.836404, longitude: 14.306517)
     centerMapOnLocation(location: initialLocation)
     
@@ -44,10 +43,8 @@ class MapViewController: UIViewController {
     for point in self.points {
       annotationPoints.append(InterestPointAnnotation(interestPoint: point))
     }
-    //let pointer = InterestPointAnnotation(interestPoint: self.points[0])
     mapView.addAnnotations(annotationPoints)
     
-    // Do any additional setup after loading the view.
   }
   
   
@@ -70,17 +67,6 @@ class MapViewController: UIViewController {
     super.viewDidAppear(animated)
     checkLocationAuthorizationStatus()
   }
-  
-  
-  /*
-   // MARK: - Navigation
-   
-   // In a storyboard-based application, you will often want to do a little preparation before navigation
-   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-   // Get the new view controller using segue.destination.
-   // Pass the selected object to the new view controller.
-   }
-   */
   
 }
 

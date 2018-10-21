@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class InterestPointCell: UITableViewCell {
   static let reuseIdentifier = "InterestPointCell"
@@ -28,13 +29,7 @@ class InterestPointCell: UITableViewCell {
   func configure(withInterestPoint point: InterestPoint) {
     self.titleLabel.text = point.name
     
-    // Not correct - Use Kingfisher
-    DispatchQueue.global().async {
-      let data = try? Data(contentsOf: point.imageURL)
-      DispatchQueue.main.async {
-        self.photoImageView.image = UIImage(data: data!)
-      }
-    }
+    self.photoImageView.kf.setImage(with: point.imageURL, placeholder: UIImage(named: "placeholder"))
   }
   
 }

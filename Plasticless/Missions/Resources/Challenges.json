@@ -1,16 +1,37 @@
 [
   {
-    "title": "First Challenge",
-    "imageURL": "https://lauriebarrera.files.wordpress.com/2016/04/change-challenge-opportunity.jpg?w=945&h=945&zoom=2",
-    "description": "This is the first challenge",
-    "reward": "100 plastic points",
+    "title": "Do you have plastic ready-meal tubs, trays or pots?? reuse them!",
+    "imageName": "1",
+    "description": "They are made of lower-quality plastics so aren’t worth recycling. You must reuse them instead, in ways that remove the need to buy other plastic products. Good luck!",
+    "reward": "10 plastic points",
     "completed": false
   },
   {
-    "title": "Second Challenge",
-    "imageURL": "https://www.thebondboard.org.uk/wp-content/uploads/2016/01/challenge-yourself-and-have-fun1.png",
-    "description": "This is the second challenge",
-    "reward": "120 plastic points",
+    "title": "Find empty plastic bottles and create two vases (pots)",
+    "imageName": "2",
+    "description": "Recycle in a creative way using plastic bottles as pots. Re-using these items in new ways will help to reduce your plastic footprint",
+    "reward": "10 plastic points",
     "completed": true
+  },
+  {
+    "title": "Clean plastic food recipients before trashing them",
+    "imageName": "3",
+    "description": "This will help the recycling process",
+    "reward": "10 plastic points",
+    "completed": false
+  },
+  {
+    "title": "Use Only 2 plastic items products for today",
+    "imageName": "4",
+    "description": "Try to reduce your plastic items usage",
+    "reward": "10 plastic points",
+    "completed": false
+  },
+  {
+    "title": "Do not use plastic straws",
+    "imageName": "5",
+    "description": "Try not to use plastic straws. Obviously this will help the environment",
+    "reward": "10 plastic points",
+    "completed": false
   }
 ]

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		175A38D28B50E46259E93A6B /* Pods_Plasticless.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6561572B710A16B23E09B9A /* Pods_Plasticless.framework */; };
 		178BD9B42176334800763665 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BD9B32176334800763665 /* User.swift */; };
 		178BD9B6217633D500763665 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BD9B5217633D500763665 /* Badge.swift */; };
 		178BD9B821763A1600763665 /* EditProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BD9B721763A1600763665 /* EditProfileTableViewController.swift */; };
@@ -35,6 +36,7 @@
 		DE2E22AA2170ED4600B8CB06 /* Missions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22A82170ED4600B8CB06 /* Missions.storyboard */; };
 		DE2E22B12170F18E00B8CB06 /* NearMe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22AF2170F18E00B8CB06 /* NearMe.storyboard */; };
 		DE2E22B32170F20200B8CB06 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2E22B22170F20200B8CB06 /* Profile.storyboard */; };
+		DE2F7E8C217C77F500A40E3B /* CustomLabelsXAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F7E8B217C77F500A40E3B /* CustomLabelsXAxisValueFormatter.swift */; };
 		DE3813B9217651FD00613F55 /* MissionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3813B8217651FD00613F55 /* MissionsTableViewController.swift */; };
 		DE3813BC217652D800613F55 /* ChallengesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3813BB217652D800613F55 /* ChallengesTableViewController.swift */; };
 		DE3813BE2176530D00613F55 /* SuperChallengeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3813BD2176530D00613F55 /* SuperChallengeTableViewController.swift */; };
@@ -69,6 +71,8 @@
 		30C8D5FF21778EDF00544F11 /* InterestPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPointAnnotation.swift; sourceTree = "<group>"; };
 		5D10B1B12177C22D00A7404E /* IdeaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaCell.swift; sourceTree = "<group>"; };
 		5DCE55352177881300345828 /* Ideas.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Ideas.json; sourceTree = "<group>"; };
+		9A0EED95C7F7909E1B813DEB /* Pods-Plasticless.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plasticless.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plasticless/Pods-Plasticless.debug.xcconfig"; sourceTree = "<group>"; };
+		A6561572B710A16B23E09B9A /* Pods_Plasticless.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plasticless.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE1ABACC21777A9300B6209B /* IdeasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdeasTableViewController.swift; sourceTree = "<group>"; };
 		DE1ABACD21777A9300B6209B /* DetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsTableViewController.swift; sourceTree = "<group>"; };
 		DE1ABAD021777A9D00B6209B /* Idea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Idea.swift; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 		DE2E22A92170ED4600B8CB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Plasticless/Base.lproj/Missions.storyboard; sourceTree = "<group>"; };
 		DE2E22B02170F18E00B8CB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Plasticless/Base.lproj/NearMe.storyboard; sourceTree = "<group>"; };
 		DE2E22B22170F20200B8CB06 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		DE2F7E8B217C77F500A40E3B /* CustomLabelsXAxisValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelsXAxisValueFormatter.swift; sourceTree = "<group>"; };
 		DE3813B8217651FD00613F55 /* MissionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsTableViewController.swift; sourceTree = "<group>"; };
 		DE3813BB217652D800613F55 /* ChallengesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesTableViewController.swift; sourceTree = "<group>"; };
 		DE3813BD2176530D00613F55 /* SuperChallengeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperChallengeTableViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +107,7 @@
 		DEC8CB3921764335005C6FB4 /* SuperChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperChallenge.swift; sourceTree = "<group>"; };
 		DEC8CB3B217643BD005C6FB4 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
 		DEF81E952170F9C000006476 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		E47C20223F6B0A2047503155 /* Pods-Plasticless.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plasticless.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plasticless/Pods-Plasticless.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				175A38D28B50E46259E93A6B /* Pods_Plasticless.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,12 +170,29 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		3273F1145F0D882C4499493A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6561572B710A16B23E09B9A /* Pods_Plasticless.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5DCE55312177877400345828 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				5DCE55352177881300345828 /* Ideas.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		836EBF5FAC6AF671F043D489 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A0EED95C7F7909E1B813DEB /* Pods-Plasticless.debug.xcconfig */,
+				E47C20223F6B0A2047503155 /* Pods-Plasticless.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		DE1ABACA2177792900B6209B /* Models */ = {
@@ -217,6 +241,8 @@
 			children = (
 				DE2E22912170E7A600B8CB06 /* Plasticless */,
 				DE2E22902170E7A600B8CB06 /* Products */,
+				836EBF5FAC6AF671F043D489 /* Pods */,
+				3273F1145F0D882C4499493A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -291,6 +317,7 @@
 		DE2E22B82170F34700B8CB06 /* Missions */ = {
 			isa = PBXGroup;
 			children = (
+				DE2F7E8A217C77D400A40E3B /* Helpers */,
 				DE3813C32176620000613F55 /* Resources */,
 				DE3813BA2176521100613F55 /* Controllers */,
 				DE8685992174D41800B3C035 /* Views */,
@@ -323,6 +350,14 @@
 				178BD9B721763A1600763665 /* EditProfileTableViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DE2F7E8A217C77D400A40E3B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DE2F7E8B217C77F500A40E3B /* CustomLabelsXAxisValueFormatter.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		DE3813BA2176521100613F55 /* Controllers */ = {
@@ -383,9 +418,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE2E22A32170E7A700B8CB06 /* Build configuration list for PBXNativeTarget "Plasticless" */;
 			buildPhases = (
+				06A060F4599061E686905A9B /* [CP] Check Pods Manifest.lock */,
 				DE2E228B2170E7A600B8CB06 /* Sources */,
 				DE2E228C2170E7A600B8CB06 /* Frameworks */,
 				DE2E228D2170E7A600B8CB06 /* Resources */,
+				A38A8F12103E8BA1F7551CD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -453,6 +490,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06A060F4599061E686905A9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Plasticless-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A38A8F12103E8BA1F7551CD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Plasticless/Pods-Plasticless-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftCharts/SwiftCharts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCharts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Plasticless/Pods-Plasticless-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE2E228B2170E7A600B8CB06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -474,6 +562,7 @@
 				DEC8CB3A21764335005C6FB4 /* SuperChallenge.swift in Sources */,
 				305DCCCF2178C67700C2EF20 /* InterestPointViews.swift in Sources */,
 				DE3813BC217652D800613F55 /* ChallengesTableViewController.swift in Sources */,
+				DE2F7E8C217C77F500A40E3B /* CustomLabelsXAxisValueFormatter.swift in Sources */,
 				DE2E22932170E7A600B8CB06 /* AppDelegate.swift in Sources */,
 				DE3813B9217651FD00613F55 /* MissionsTableViewController.swift in Sources */,
 				DEBA3D842178B09700FF0717 /* GenericCoderError.swift in Sources */,
@@ -649,6 +738,7 @@
 		};
 		DE2E22A42170E7A700B8CB06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0EED95C7F7909E1B813DEB /* Pods-Plasticless.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -667,6 +757,7 @@
 		};
 		DE2E22A52170E7A700B8CB06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E47C20223F6B0A2047503155 /* Pods-Plasticless.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

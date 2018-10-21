@@ -7,34 +7,29 @@
 //
 
 import UIKit
+import Kingfisher
 
 class IdeaCell: UITableViewCell {
-    static let reuseIdentifier = "IdeaCell"
+  static let reuseIdentifier = "IdeaCell"
+  
+  @IBOutlet weak var photoImageView: UIImageView!
+  @IBOutlet weak var titleLabel: UILabel!
+  
+  override func awakeFromNib() {
+    super.awakeFromNib()
+    // Initialization code
+  }
+  
+  override func setSelected(_ selected: Bool, animated: Bool) {
+    super.setSelected(selected, animated: animated)
     
-    @IBOutlet weak var photoImageView: UIImageView!
-    @IBOutlet weak var titleLabel: UILabel!
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
+    // Configure the view for the selected state
+  }
+  
+  func configure(withIdea idea: Idea) {
+    self.titleLabel.text = idea.title
     
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-        
-        // Configure the view for the selected state
-    }
-    
-    func configure(withIdea idea: Idea) {
-        self.titleLabel.text = idea.title
-        
-        // Not correct - Use Kingfisher
-        DispatchQueue.global().async {
-            let data = try? Data(contentsOf: idea.imageURL)
-            DispatchQueue.main.async {
-                self.photoImageView.image = UIImage(data: data!)
-            }
-        }
-    }
-
+    photoImageView.kf.setImage(with: idea.imageURL, placeholder: UIImage(named: "placeholder"))
+  }
+  
 }

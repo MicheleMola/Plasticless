@@ -18,6 +18,7 @@ class PointMarkerView: MKMarkerAnnotationView {
       rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
       // 2
       markerTintColor = point.markerTintColor
+      displayPriority = .required
     }
   }
 }

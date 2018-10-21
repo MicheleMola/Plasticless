@@ -1,27 +1,36 @@
 [
   {
-    "name": "IOS Food",
-    "imageURL": "https://lh5.googleusercontent.com/p/AF1QipPZss89OPwGkpKOwms005IF0weZpxGz3PbEvm1b=w408-h306-k-no",
-    "duration": "Thursday 2nd November, From 1 pm to 2 pm",
-    "description": "Wonderful Place",
+    "name": "Defeat plastic pollution",
+    "imageURL": "https://www.napolike.it/wp-content/uploads/2017/09/museo-pietrarsa-1.jpg",
+    "duration": "24 October from 2pm to 8pm",
+    "description": "We will gather to Museo di pietrarsa in San Giovanni a teduccio(NA) to discuss new ways to recycle plastic products, meet experts from all over the world and make our voice count!!",
     "type": "Event",
-    "latitude": 40.836121,
-    "longitude": 14.306016
+    "latitude": 40.822250,
+    "longitude": 14.322250
   },
   {
-    "name": "Pizzeria La Saporita Rosticceria",
+    "name": "Act Now!",
+    "imageURL": "https://www.ildenaro.it/wp-content/uploads/2018/06/Parco-Troisi-2018.jpg",
+    "duration": "11 November from 8am to 8pm",
+    "description": "People must be informed about the critical level of plastic pollution in our oceans. You can make the difference! Help us to raise awareness about the condition of our planet!",
+    "type": "Event",
+    "latitude": 40.835580,
+    "longitude": 14.304460
+  },
+  {
+    "name": "Bin San Giovanni a Teduccio",
     "imageURL": "https://lh5.googleusercontent.com/p/AF1QipPFhp5Xbdd_uVrsWbwfZ4xJfGHwdWjVFRcCqPp2=w408-h544-k-no",
     "duration": "",
-    "description": "Great Place",
+    "description": "This is a bin for plastics",
     "type": "Bin",
     "latitude": 40.836217,
     "longitude": 14.306385
   },
   {
-    "name": "EXPERT NAPLES San Giovanni in Teduccio",
+    "name": "Collection Point San Giovanni a Teduccio",
     "imageURL": "https://lh5.googleusercontent.com/p/AF1QipPAQyyn_tBaqMOJlQ8HzGcnPCkB7du2POC9o4Wh=w408-h229-k-no",
     "duration": "",
-    "description": "Huge Place",
+    "description": "This is a collection point for plastics",
     "type": "Collection",
     "latitude": 40.836288,
     "longitude": 14.305313
