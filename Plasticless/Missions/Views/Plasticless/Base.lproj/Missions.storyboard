@@ -19,14 +19,14 @@
                         <sections>
                             <tableViewSection id="2xB-kO-01X">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="220" id="iUC-Fb-tBF">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="220" id="iUC-Fb-tBF">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="220"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iUC-Fb-tBF" id="kV6-be-eaU">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="219.66666666666666"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pollution" translatesAutoresizingMaskIntoConstraints="NO" id="uOs-Me-EOK">
+                                                <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SlideShowImageZero" translatesAutoresizingMaskIntoConstraints="NO" id="uOs-Me-EOK">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="219.66666666666666"/>
                                                     <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </imageView>
@@ -35,7 +35,6 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="39" id="4NM-EW-ME4"/>
                                                     </constraints>
-                                                    <color key="pageIndicatorTintColor" red="0.41608625650405884" green="0.59601587057113647" blue="0.58038961887359619" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </pageControl>
                                             </subviews>
                                             <constraints>
@@ -285,6 +284,31 @@
                                                 <constraint firstItem="ZGW-Jf-hWA" firstAttribute="leading" secondItem="KdM-ew-kGe" secondAttribute="leading" constant="16" id="95e-7p-IU2"/>
                                                 <constraint firstItem="ZGW-Jf-hWA" firstAttribute="top" secondItem="KdM-ew-kGe" secondAttribute="top" constant="10" id="QfH-LC-vnb"/>
                                                 <constraint firstItem="v8D-WQ-67G" firstAttribute="top" secondItem="ZGW-Jf-hWA" secondAttribute="bottom" constant="8" id="n1M-sI-XBu"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="80" id="1DX-Sm-haa">
+                                        <rect key="frame" x="0.0" y="580" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1DX-Sm-haa" id="tJP-uy-AYa">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hjw-un-1AW">
+                                                    <rect key="frame" x="93.666666666666671" y="20" width="187.66666666666663" height="40"/>
+                                                    <color key="backgroundColor" red="0.9192116857" green="0.34864333450000001" blue="0.225319081" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="OH0-Dd-a7b"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Complete">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Hjw-un-1AW" firstAttribute="width" secondItem="tJP-uy-AYa" secondAttribute="width" multiplier="0.5" id="AYb-f8-XJo"/>
+                                                <constraint firstItem="Hjw-un-1AW" firstAttribute="centerX" secondItem="tJP-uy-AYa" secondAttribute="centerX" id="gJ7-CF-CKf"/>
+                                                <constraint firstItem="Hjw-un-1AW" firstAttribute="centerY" secondItem="tJP-uy-AYa" secondAttribute="centerY" id="hkG-UZ-W6I"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -660,9 +684,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="SlideShowImageZero" width="375.66665649414062" height="215.66667175292969"/>
         <image name="first" width="375" height="161"/>
         <image name="mission" width="25" height="25"/>
-        <image name="pollution" width="2000" height="1000"/>
         <image name="second" width="375" height="161"/>
         <image name="third" width="375" height="161"/>
     </resources>

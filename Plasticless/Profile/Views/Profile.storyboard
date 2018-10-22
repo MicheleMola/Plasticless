@@ -27,7 +27,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="259.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="GMO-zj-05W">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile-placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="GMO-zj-05W">
                                                     <rect key="frame" x="117" y="40" width="180" height="180"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="180" id="C7g-Mx-mJb"/>
@@ -222,7 +222,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="259.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="RTn-Sn-v27">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile-placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="RTn-Sn-v27">
                                                     <rect key="frame" x="117" y="40" width="180" height="180"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="180" id="4bR-Ak-DPg"/>
@@ -230,8 +230,17 @@
                                                     </constraints>
                                                     <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                                 </imageView>
+                                                <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-screenshot-480" translatesAutoresizingMaskIntoConstraints="NO" id="4IC-ce-w6h">
+                                                    <rect key="frame" x="184" y="107" width="46" height="46"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="46" id="bOv-Np-IcN"/>
+                                                        <constraint firstAttribute="width" constant="46" id="hjB-bj-Leb"/>
+                                                    </constraints>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="4IC-ce-w6h" firstAttribute="centerX" secondItem="RTn-Sn-v27" secondAttribute="centerX" id="4Fb-BR-JbF"/>
+                                                <constraint firstItem="4IC-ce-w6h" firstAttribute="centerY" secondItem="RTn-Sn-v27" secondAttribute="centerY" id="Pxn-M5-GTa"/>
                                                 <constraint firstItem="RTn-Sn-v27" firstAttribute="centerX" secondItem="QBF-3r-C5V" secondAttribute="centerX" id="fgy-OF-9AK"/>
                                                 <constraint firstItem="RTn-Sn-v27" firstAttribute="centerY" secondItem="QBF-3r-C5V" secondAttribute="centerY" id="qQI-fF-3RE"/>
                                             </constraints>
@@ -341,7 +350,8 @@
         <image name="fifthBadge" width="512" height="512"/>
         <image name="firstBadge" width="512" height="512"/>
         <image name="fourthBadge" width="512" height="512"/>
-        <image name="placeholder" width="1280" height="960"/>
+        <image name="icons8-screenshot-480" width="360" height="360"/>
+        <image name="profile-placeholder" width="375" height="375"/>
         <image name="secondBadge" width="512" height="512"/>
         <image name="sixthBadge" width="512" height="512"/>
         <image name="thirdBadge" width="512" height="512"/>
